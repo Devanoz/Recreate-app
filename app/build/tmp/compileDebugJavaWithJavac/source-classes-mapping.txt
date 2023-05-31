@@ -1,0 +1,8 @@
+org/tensorflow/codelabs/objectdetection/BuildConfig.java
+ org.tensorflow.codelabs.objectdetection.BuildConfig
+org/tensorflow/codelabs/objectdetection/databinding/ActivityCameraPreviewBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraPreviewBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityMain2Binding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityMain2Binding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityMainBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityMainBinding

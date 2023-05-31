@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_camera_preview.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_camera_preview.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
