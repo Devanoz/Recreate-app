@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -29,13 +30,18 @@ public final class ActivityMain2Binding implements ViewBinding {
   @NonNull
   public final FloatingActionButton fabCamera;
 
+  @NonNull
+  public final FragmentContainerView homeFragmentContainer;
+
   private ActivityMain2Binding(@NonNull CoordinatorLayout rootView,
       @NonNull BottomAppBar bottomAppBar, @NonNull BottomNavigationView bottomNavigationView,
-      @NonNull FloatingActionButton fabCamera) {
+      @NonNull FloatingActionButton fabCamera,
+      @NonNull FragmentContainerView homeFragmentContainer) {
     this.rootView = rootView;
     this.bottomAppBar = bottomAppBar;
     this.bottomNavigationView = bottomNavigationView;
     this.fabCamera = fabCamera;
+    this.homeFragmentContainer = homeFragmentContainer;
   }
 
   @Override
@@ -83,8 +89,14 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.home_fragment_container;
+      FragmentContainerView homeFragmentContainer = rootView.findViewById(id);
+      if (homeFragmentContainer == null) {
+        break missingId;
+      }
+
       return new ActivityMain2Binding((CoordinatorLayout) rootView, bottomAppBar,
-          bottomNavigationView, fabCamera);
+          bottomNavigationView, fabCamera, homeFragmentContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

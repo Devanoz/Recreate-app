@@ -2,8 +2,8 @@
 
 <resources>
     <color name="seed">#6750A4</color>
-    <color name="md_theme_light_primary">#6750A4</color>
-    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primary">#98EECC</color>
+    <color name="md_theme_light_onPrimary">#000000</color>
     <color name="md_theme_light_primaryContainer">#EADDFF</color>
     <color name="md_theme_light_onPrimaryContainer">#21005D</color>
     <color name="md_theme_light_secondary">#625B71</color>
@@ -62,4 +62,6 @@
     <color name="md_theme_dark_surfaceTint">#D0BCFF</color>
     <color name="md_theme_dark_outlineVariant">#49454F</color>
     <color name="md_theme_dark_scrim">#000000</color>
+
+    <color name="white" >#FFFFFF</color>
 </resources>

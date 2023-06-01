@@ -16,12 +16,12 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -32,12 +32,20 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visibility_on_24.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\visibility_on_24.xml"
+    },
+    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -48,8 +56,16 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recreate_logo.png.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\recreate_logo.png"
+    },
+    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -58,6 +74,14 @@
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera_preview.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_camera_preview.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_home_24.xml.flat",
@@ -84,6 +108,10 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\img_meal_three.jpg"
     },
     {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_rounded_corner.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\bottom_rounded_corner.xml"
+    },
+    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -98,6 +126,10 @@
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_camera_24.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\baseline_camera_24.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_textfield_background.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\drawable\\login_textfield_background.xml"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_person_24.xml.flat",

@@ -1734,6 +1734,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2405,6 +2406,7 @@ drawable avd_show_password
 drawable baseline_camera_24
 drawable baseline_home_24
 drawable baseline_person_24
+drawable bottom_rounded_corner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2433,6 +2435,7 @@ drawable ic_mtrl_chip_close_circle
 drawable img_meal_one
 drawable img_meal_three
 drawable img_meal_two
+drawable login_textfield_background
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2474,9 +2477,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable recreate_logo
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable visibility_on_24
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2592,6 +2597,7 @@ id collapseActionView
 id compatible
 id compress
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -2672,14 +2678,18 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_fragment_container
+id home_menu
 id honorRequest
 id icon
 id icon_group
+id identifier_textfield
 id ifRoom
 id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id image_capture_button
 id info
 id invisible
@@ -2697,8 +2707,10 @@ id leftToRight
 id line1
 id line3
 id linear
+id linear_progress_bar
 id listMode
 id list_item
+id login_button
 id masked
 id material_clock_display
 id material_clock_face
@@ -2777,6 +2789,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password_textfield
 id password_toggle
 id path
 id pathRelative
@@ -2787,7 +2800,7 @@ id pin
 id place_holder
 id position
 id postLayout
-id profile
+id profile_menu
 id progress_circular
 id progress_horizontal
 id radio
@@ -2876,10 +2889,15 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textInputLayout
+id textInputLayout2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2910,6 +2928,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id view
 id viewFinder
 id view_offset_helper
 id view_tree_lifecycle_owner
@@ -3008,8 +3027,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_camera_preview
+layout activity_login
 layout activity_main
 layout activity_main2
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3026,6 +3047,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_profile
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3141,6 +3164,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

@@ -4,11 +4,27 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_camera_preview.xml",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_camera_preview.xml"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     }
 ]

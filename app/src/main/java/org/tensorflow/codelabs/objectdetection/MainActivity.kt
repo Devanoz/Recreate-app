@@ -5,10 +5,21 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
+import android.provider.ContactsContract.Profile
 import android.provider.MediaStore
 import android.util.Log
 import androidx.core.content.FileProvider
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
+import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
+import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreHelper
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityMain2Binding
+import org.tensorflow.codelabs.objectdetection.ui.detection.CameraActivity
+import org.tensorflow.codelabs.objectdetection.ui.detection.CameraPreview
+import org.tensorflow.codelabs.objectdetection.ui.home.HomeFragment
+import org.tensorflow.codelabs.objectdetection.ui.login.LoginActivity
+import org.tensorflow.codelabs.objectdetection.ui.profile.ProfileFragment
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -24,9 +35,35 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.bottomNavigationView.menu.getItem(1).isEnabled = false
 
+        val preferencesDataStoreHelper = PreferencesDataStoreHelper(application)
+
+
+        lifecycleScope.launch {
+            preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.TOKEN, "")
+                .collect {
+                    if (it.isEmpty()) {
+                        startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+                        finish()
+                    }
+                }
+        }
+
         binding.fabCamera.setOnClickListener {
-//            startActivity(Intent(this,CameraActivity::class.java))
-            startActivity(Intent(this,CameraPreview::class.java))
+            startActivity(Intent(this, CameraPreview::class.java))
+        }
+
+
+        supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container, HomeFragment()).commit()
+        binding.bottomNavigationView.setOnItemSelectedListener {
+            when(it.itemId) {
+                R.id.home_menu -> {
+                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,HomeFragment()).commit()
+                }
+                R.id.profile_menu -> {
+                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,ProfileFragment()).commit()
+                }
+            }
+            true
         }
     }
 

@@ -2,6 +2,14 @@ org/tensorflow/codelabs/objectdetection/BuildConfig.java
  org.tensorflow.codelabs.objectdetection.BuildConfig
 org/tensorflow/codelabs/objectdetection/databinding/ActivityCameraPreviewBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraPreviewBinding
+org/tensorflow/codelabs/objectdetection/databinding/FragmentProfileBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.FragmentProfileBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityRegisterBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityRegisterBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityLoginBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityLoginBinding
+org/tensorflow/codelabs/objectdetection/databinding/FragmentHomeBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.FragmentHomeBinding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityMain2Binding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityMain2Binding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityMainBinding.java
