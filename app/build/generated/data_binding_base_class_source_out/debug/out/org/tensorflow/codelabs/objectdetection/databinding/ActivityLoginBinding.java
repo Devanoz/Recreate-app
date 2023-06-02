@@ -4,6 +4,7 @@ package org.tensorflow.codelabs.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -24,7 +25,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout constraintLayout;
+  public final ImageButton googleImageButton;
 
   @NonNull
   public final TextInputEditText identifierTextfield;
@@ -48,6 +49,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextInputLayout textInputLayout2;
 
   @NonNull
+  public final TextView textView;
+
+  @NonNull
   public final TextView textView3;
 
   @NonNull
@@ -59,15 +63,18 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final View view;
 
+  @NonNull
+  public final View view2;
+
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout constraintLayout, @NonNull TextInputEditText identifierTextfield,
+      @NonNull ImageButton googleImageButton, @NonNull TextInputEditText identifierTextfield,
       @NonNull ImageView imageView2, @NonNull LinearProgressIndicator linearProgressBar,
       @NonNull MaterialButton loginButton, @NonNull TextInputEditText passwordTextfield,
       @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
-      @NonNull View view) {
+      @NonNull TextView textView, @NonNull TextView textView3, @NonNull TextView textView4,
+      @NonNull TextView textView5, @NonNull View view, @NonNull View view2) {
     this.rootView = rootView;
-    this.constraintLayout = constraintLayout;
+    this.googleImageButton = googleImageButton;
     this.identifierTextfield = identifierTextfield;
     this.imageView2 = imageView2;
     this.linearProgressBar = linearProgressBar;
@@ -75,10 +82,12 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.passwordTextfield = passwordTextfield;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
+    this.textView = textView;
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.textView5 = textView5;
     this.view = view;
+    this.view2 = view2;
   }
 
   @Override
@@ -108,9 +117,9 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.constraintLayout;
-      ConstraintLayout constraintLayout = rootView.findViewById(id);
-      if (constraintLayout == null) {
+      id = R.id.google_image_button;
+      ImageButton googleImageButton = rootView.findViewById(id);
+      if (googleImageButton == null) {
         break missingId;
       }
 
@@ -156,6 +165,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = rootView.findViewById(id);
+      if (textView == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = rootView.findViewById(id);
       if (textView3 == null) {
@@ -180,9 +195,16 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, constraintLayout,
+      id = R.id.view2;
+      View view2 = rootView.findViewById(id);
+      if (view2 == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ConstraintLayout) rootView, googleImageButton,
           identifierTextfield, imageView2, linearProgressBar, loginButton, passwordTextfield,
-          textInputLayout, textInputLayout2, textView3, textView4, textView5, view);
+          textInputLayout, textInputLayout2, textView, textView3, textView4, textView5, view,
+          view2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -14,21 +14,26 @@
 
     </androidx.camera.view.PreviewView>
 
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/image_capture_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabCustomSize="100dp"
-        android:elevation="2dp"
-        android:text="@string/take_photo"
-        app:shapeAppearanceOverlay="@style/fab_rounded"
-        android:layout_marginBottom="32dp"
-        android:src="@drawable/baseline_camera_24"
+        android:backgroundTint="@color/md_theme_light_onPrimary"
+        android:contentDescription="@string/launch_camera"
         android:scaleType="center"
-        app:maxImageSize="80dp"
+        android:src="@drawable/camera"
+        app:backgroundTint="@color/md_theme_light_primary"
+        app:borderWidth="6dp"
+        app:fabCustomSize="80dp"
+        app:layout_anchorGravity="top|center"
         app:layout_constraintBottom_toBottomOf="@+id/viewFinder"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="40dp"
+        android:layout_marginBottom="32dp"
+        app:shapeAppearanceOverlay="@style/fab_rounded"
+        app:tint="@color/yellow_tertiary" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

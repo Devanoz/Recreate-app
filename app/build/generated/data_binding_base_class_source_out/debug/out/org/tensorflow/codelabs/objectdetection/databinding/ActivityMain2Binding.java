@@ -7,9 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
@@ -22,26 +20,16 @@ public final class ActivityMain2Binding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
-  public final BottomAppBar bottomAppBar;
-
-  @NonNull
-  public final BottomNavigationView bottomNavigationView;
+  public final BottomNavigationView botomNavigationView;
 
   @NonNull
   public final FloatingActionButton fabCamera;
 
-  @NonNull
-  public final FragmentContainerView homeFragmentContainer;
-
   private ActivityMain2Binding(@NonNull CoordinatorLayout rootView,
-      @NonNull BottomAppBar bottomAppBar, @NonNull BottomNavigationView bottomNavigationView,
-      @NonNull FloatingActionButton fabCamera,
-      @NonNull FragmentContainerView homeFragmentContainer) {
+      @NonNull BottomNavigationView botomNavigationView, @NonNull FloatingActionButton fabCamera) {
     this.rootView = rootView;
-    this.bottomAppBar = bottomAppBar;
-    this.bottomNavigationView = bottomNavigationView;
+    this.botomNavigationView = botomNavigationView;
     this.fabCamera = fabCamera;
-    this.homeFragmentContainer = homeFragmentContainer;
   }
 
   @Override
@@ -71,15 +59,9 @@ public final class ActivityMain2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.bottom_app_bar;
-      BottomAppBar bottomAppBar = rootView.findViewById(id);
-      if (bottomAppBar == null) {
-        break missingId;
-      }
-
-      id = R.id.bottom_navigation_view;
-      BottomNavigationView bottomNavigationView = rootView.findViewById(id);
-      if (bottomNavigationView == null) {
+      id = R.id.botom_navigation_view;
+      BottomNavigationView botomNavigationView = rootView.findViewById(id);
+      if (botomNavigationView == null) {
         break missingId;
       }
 
@@ -89,14 +71,7 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.home_fragment_container;
-      FragmentContainerView homeFragmentContainer = rootView.findViewById(id);
-      if (homeFragmentContainer == null) {
-        break missingId;
-      }
-
-      return new ActivityMain2Binding((CoordinatorLayout) rootView, bottomAppBar,
-          bottomNavigationView, fabCamera, homeFragmentContainer);
+      return new ActivityMain2Binding((CoordinatorLayout) rootView, botomNavigationView, fabCamera);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -74,8 +74,8 @@ class CameraPreview : AppCompatActivity() {
         }
         // Set up the listeners for take photo and video capture buttons
         binding.imageCaptureButton.setOnClickListener { takePhoto() }
-
         cameraExecutor = Executors.newSingleThreadExecutor()
+
     }
 
     private fun takePhoto() {

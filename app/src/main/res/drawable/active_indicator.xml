@@ -1,0 +1,8 @@
+<!-- custom_bottom_nav_indicator.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:state_checked="true">
+       <solid android:color="@android:color/holo_green_light" />
+       <size android:height="8dp" /> <!-- Change the height value to your desired height -->
+       <corners android:radius="4dp" /> <!-- Optional: Rounded corners for the indicator -->
+   </item>
+</selector>

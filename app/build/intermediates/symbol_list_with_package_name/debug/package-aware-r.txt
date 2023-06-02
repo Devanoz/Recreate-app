@@ -1707,6 +1707,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color primary_background
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1735,6 +1736,7 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow_tertiary
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2401,11 +2403,13 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable active_indicator
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_camera_24
 drawable baseline_home_24
 drawable baseline_person_24
+drawable bottom_app_bar_rounded
 drawable bottom_rounded_corner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2415,11 +2419,16 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable camera
+drawable circular_button
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fab_camera
+drawable google_icon
+drawable house
 drawable ic_camera
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2477,11 +2486,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile
 drawable recreate_logo
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable visibility_on_24
+drawable x
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2568,9 +2579,8 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id botom_navigation_view
 id bottom
-id bottom_app_bar
-id bottom_navigation_view
 id bounce
 id buttonPanel
 id cache_measures
@@ -2597,7 +2607,6 @@ id collapseActionView
 id compatible
 id compress
 id confirm_button
-id constraintLayout
 id container
 id content
 id contentPanel
@@ -2668,6 +2677,7 @@ id frameLayout
 id ghost_view
 id ghost_view_holder
 id gone
+id google_image_button
 id graph
 id graph_wrap
 id group_divider
@@ -2678,7 +2688,6 @@ id header_title
 id hideable
 id home
 id homeAsUp
-id home_fragment_container
 id home_menu
 id honorRequest
 id icon
@@ -2797,7 +2806,6 @@ id peekHeight
 id percent
 id performance
 id pin
-id place_holder
 id position
 id postLayout
 id profile_menu
@@ -2895,6 +2903,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView3
 id textView4
 id textView5
@@ -2929,6 +2938,7 @@ id unlabeled
 id up
 id useLogo
 id view
+id view2
 id viewFinder
 id view_offset_helper
 id view_tree_lifecycle_owner
@@ -3271,6 +3281,9 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style App_Custom_BottomNavigationView
+style App_Custom_Indicator
+style App_Fab_Custom
 style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light

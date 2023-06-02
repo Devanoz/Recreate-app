@@ -6,45 +6,69 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/home_fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_anchor="@id/fab_camera"
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/home_fragment_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_anchor="@id/fab_camera"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        />-->
+
+<!--    <com.google.android.material.bottomappbar.BottomAppBar-->
+<!--        android:id="@+id/bottom_app_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:backgroundTint="@android:color/transparent"-->
+<!--        android:padding="0dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        >-->
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottom_navigation_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:paddingHorizontal="32dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/bottom_app_bar_rounded"-->
+<!--            app:elevation="0dp"-->
+<!--            app:menu="@menu/bottom_nav_menu"-->
+<!--            app:itemHorizontalTranslationEnabled="false"-->
+<!--            />-->
+
+<!--    </com.google.android.material.bottomappbar.BottomAppBar>-->
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botom_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginBottom="32dp"
-        />
-
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottom_app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="0dp"
+        android:layout_marginHorizontal="32dp"
+        app:itemIconTint="@color/yellow_tertiary"
+        app:itemIconSize="40dp"
+        android:background="@drawable/bottom_app_bar_rounded"
+        app:menu="@menu/bottom_nav_menu"
+        style="@style/App.Custom.BottomNavigationView"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
         android:layout_gravity="bottom"
-        >
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginEnd="16dp"
-            android:background="@android:color/transparent"
-            app:elevation="0dp"
-            app:menu="@menu/bottom_nav_menu"
-            app:itemHorizontalTranslationEnabled="false"
-            />
-
-    </com.google.android.material.bottomappbar.BottomAppBar>
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabCustomSize="80dp"
         android:contentDescription="@string/launch_camera"
-        android:src="@drawable/baseline_camera_24"
-        app:layout_anchor="@id/bottom_app_bar"
-        app:shapeAppearanceOverlay="@style/fab_rounded"
-        app:maxImageSize="70dp"
         android:scaleType="center"
-        />
+        android:src="@drawable/camera"
+        app:borderWidth="6dp"
+        app:fabCustomSize="80dp"
+        app:tint="@color/yellow_tertiary"
+        app:backgroundTint="@color/md_theme_light_primary"
+        android:backgroundTint="@color/md_theme_light_onPrimary"
+        app:layout_anchor="@id/botom_navigation_view"
+        app:layout_anchorGravity="top|center"
+        app:maxImageSize="40dp"
+        app:shapeAppearanceOverlay="@style/fab_rounded" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
