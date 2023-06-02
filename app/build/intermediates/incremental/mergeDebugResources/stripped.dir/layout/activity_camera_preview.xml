@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </androidx.camera.view.PreviewView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/image_capture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/md_theme_light_onPrimary"
+        android:contentDescription="@string/launch_camera"
+        android:scaleType="center"
+        android:src="@drawable/camera"
+        app:backgroundTint="@color/md_theme_light_primary"
+        app:borderWidth="6dp"
+        app:fabCustomSize="80dp"
+        app:layout_anchorGravity="top|center"
+        app:layout_constraintBottom_toBottomOf="@+id/viewFinder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="40dp"
+        android:layout_marginBottom="32dp"
+        app:shapeAppearanceOverlay="@style/fab_rounded"
+        app:tint="@color/yellow_tertiary" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
