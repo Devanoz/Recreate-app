@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botom_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginHorizontal="32dp"
+        app:itemIconSize="40dp"
+        app:itemIconTint="@color/yellow_tertiary"
+        android:background="@drawable/bottom_app_bar_rounded"
+        app:menu="@menu/bottom_nav_menu"
+        style="@style/App.Custom.BottomNavigationView"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/launch_camera"
+        android:scaleType="center"
+        android:src="@drawable/camera"
+        app:borderWidth="6dp"
+        app:fabCustomSize="80dp"
+        app:tint="@color/yellow_tertiary"
+        app:backgroundTint="@color/md_theme_light_primary"
+        android:backgroundTint="@color/md_theme_light_onPrimary"
+        app:layout_anchor="@id/botom_navigation_view"
+        app:layout_anchorGravity="top|center"
+        app:maxImageSize="40dp"
+        app:shapeAppearanceOverlay="@style/fab_rounded" />
+
+    <View
+        android:id="@+id/bottom_navigation_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/yellow_tertiary"
+        app:layout_anchor="@id/botom_navigation_view"
+        app:layout_anchorGravity="bottom|center"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/home_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_anchor="@id/bottom_navigation_wrapper"
+        android:name="org.tensorflow.codelabs.objectdetection.ui.home.HomeFragment" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

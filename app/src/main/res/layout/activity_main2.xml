@@ -6,47 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <androidx.fragment.app.FragmentContainerView-->
-<!--        android:id="@+id/home_fragment_container"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:layout_anchor="@id/fab_camera"-->
-<!--        android:layout_marginBottom="32dp"-->
-<!--        />-->
-
-<!--    <com.google.android.material.bottomappbar.BottomAppBar-->
-<!--        android:id="@+id/bottom_app_bar"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginHorizontal="16dp"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        android:backgroundTint="@android:color/transparent"-->
-<!--        android:padding="0dp"-->
-<!--        android:layout_gravity="bottom"-->
-<!--        >-->
-<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
-<!--            android:id="@+id/bottom_navigation_view"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:paddingHorizontal="32dp"-->
-<!--            android:layout_marginEnd="16dp"-->
-<!--            android:background="@drawable/bottom_app_bar_rounded"-->
-<!--            app:elevation="0dp"-->
-<!--            app:menu="@menu/bottom_nav_menu"-->
-<!--            app:itemHorizontalTranslationEnabled="false"-->
-<!--            />-->
-
-<!--    </com.google.android.material.bottomappbar.BottomAppBar>-->
-
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/botom_navigation_view"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_marginBottom="32dp"
         android:layout_marginHorizontal="32dp"
-        app:itemIconTint="@color/yellow_tertiary"
         app:itemIconSize="40dp"
+        app:itemIconTint="@color/yellow_tertiary"
         android:background="@drawable/bottom_app_bar_rounded"
         app:menu="@menu/bottom_nav_menu"
         style="@style/App.Custom.BottomNavigationView"
@@ -70,5 +37,23 @@
         app:layout_anchorGravity="top|center"
         app:maxImageSize="40dp"
         app:shapeAppearanceOverlay="@style/fab_rounded" />
+
+    <View
+        android:id="@+id/bottom_navigation_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/yellow_tertiary"
+        app:layout_anchor="@id/botom_navigation_view"
+        app:layout_anchorGravity="bottom|center"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/home_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_anchor="@id/bottom_navigation_wrapper"
+        android:name="org.tensorflow.codelabs.objectdetection.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

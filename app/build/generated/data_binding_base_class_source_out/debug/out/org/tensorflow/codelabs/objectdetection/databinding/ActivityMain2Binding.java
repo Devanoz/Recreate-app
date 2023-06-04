@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -23,13 +24,23 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final BottomNavigationView botomNavigationView;
 
   @NonNull
+  public final View bottomNavigationWrapper;
+
+  @NonNull
   public final FloatingActionButton fabCamera;
 
+  @NonNull
+  public final FragmentContainerView homeFragmentContainer;
+
   private ActivityMain2Binding(@NonNull CoordinatorLayout rootView,
-      @NonNull BottomNavigationView botomNavigationView, @NonNull FloatingActionButton fabCamera) {
+      @NonNull BottomNavigationView botomNavigationView, @NonNull View bottomNavigationWrapper,
+      @NonNull FloatingActionButton fabCamera,
+      @NonNull FragmentContainerView homeFragmentContainer) {
     this.rootView = rootView;
     this.botomNavigationView = botomNavigationView;
+    this.bottomNavigationWrapper = bottomNavigationWrapper;
     this.fabCamera = fabCamera;
+    this.homeFragmentContainer = homeFragmentContainer;
   }
 
   @Override
@@ -65,13 +76,26 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.bottom_navigation_wrapper;
+      View bottomNavigationWrapper = rootView.findViewById(id);
+      if (bottomNavigationWrapper == null) {
+        break missingId;
+      }
+
       id = R.id.fab_camera;
       FloatingActionButton fabCamera = rootView.findViewById(id);
       if (fabCamera == null) {
         break missingId;
       }
 
-      return new ActivityMain2Binding((CoordinatorLayout) rootView, botomNavigationView, fabCamera);
+      id = R.id.home_fragment_container;
+      FragmentContainerView homeFragmentContainer = rootView.findViewById(id);
+      if (homeFragmentContainer == null) {
+        break missingId;
+      }
+
+      return new ActivityMain2Binding((CoordinatorLayout) rootView, botomNavigationView,
+          bottomNavigationWrapper, fabCamera, homeFragmentContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

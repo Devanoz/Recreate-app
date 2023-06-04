@@ -2410,6 +2410,7 @@ drawable baseline_camera_24
 drawable baseline_home_24
 drawable baseline_person_24
 drawable bottom_app_bar_rounded
+drawable bottom_navigation_item_tint
 drawable bottom_rounded_corner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2581,6 +2582,7 @@ id beginning
 id blocking
 id botom_navigation_view
 id bottom
+id bottom_navigation_wrapper
 id bounce
 id buttonPanel
 id cache_measures
@@ -2688,6 +2690,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_fragment_container
 id home_menu
 id honorRequest
 id icon
