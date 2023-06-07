@@ -36,9 +36,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final LinearProgressIndicator linearProgressBar;
 
   @NonNull
-  public final MaterialButton loginButton;
-
-  @NonNull
   public final TextInputLayout passwordTextInputLayout;
 
   @NonNull
@@ -49,6 +46,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
 
   @NonNull
   public final TextInputEditText repeatPasswordTextfield;
+
+  @NonNull
+  public final MaterialButton signupButton;
 
   @NonNull
   public final TextInputLayout textInputLayout;
@@ -83,23 +83,23 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextInputEditText emailTextfield, @NonNull TextView emailTextview,
       @NonNull ImageButton googleImageButton, @NonNull LinearProgressIndicator linearProgressBar,
-      @NonNull MaterialButton loginButton, @NonNull TextInputLayout passwordTextInputLayout,
+      @NonNull TextInputLayout passwordTextInputLayout,
       @NonNull TextInputEditText passwordTextfield, @NonNull TextView repeatPasswordTextView,
-      @NonNull TextInputEditText repeatPasswordTextfield, @NonNull TextInputLayout textInputLayout,
-      @NonNull TextInputLayout textInputLayout2, @NonNull TextInputLayout textInputLayout3,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
-      @NonNull TextView textView6, @NonNull TextInputEditText usernameTextfield, @NonNull View view,
-      @NonNull View view2) {
+      @NonNull TextInputEditText repeatPasswordTextfield, @NonNull MaterialButton signupButton,
+      @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2,
+      @NonNull TextInputLayout textInputLayout3, @NonNull TextView textView3,
+      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6,
+      @NonNull TextInputEditText usernameTextfield, @NonNull View view, @NonNull View view2) {
     this.rootView = rootView;
     this.emailTextfield = emailTextfield;
     this.emailTextview = emailTextview;
     this.googleImageButton = googleImageButton;
     this.linearProgressBar = linearProgressBar;
-    this.loginButton = loginButton;
     this.passwordTextInputLayout = passwordTextInputLayout;
     this.passwordTextfield = passwordTextfield;
     this.repeatPasswordTextView = repeatPasswordTextView;
     this.repeatPasswordTextfield = repeatPasswordTextfield;
+    this.signupButton = signupButton;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
     this.textInputLayout3 = textInputLayout3;
@@ -163,12 +163,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.login_button;
-      MaterialButton loginButton = rootView.findViewById(id);
-      if (loginButton == null) {
-        break missingId;
-      }
-
       id = R.id.password_textInputLayout;
       TextInputLayout passwordTextInputLayout = rootView.findViewById(id);
       if (passwordTextInputLayout == null) {
@@ -190,6 +184,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
       id = R.id.repeat_password_textfield;
       TextInputEditText repeatPasswordTextfield = rootView.findViewById(id);
       if (repeatPasswordTextfield == null) {
+        break missingId;
+      }
+
+      id = R.id.signup_button;
+      MaterialButton signupButton = rootView.findViewById(id);
+      if (signupButton == null) {
         break missingId;
       }
 
@@ -254,8 +254,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, emailTextfield, emailTextview,
-          googleImageButton, linearProgressBar, loginButton, passwordTextInputLayout,
-          passwordTextfield, repeatPasswordTextView, repeatPasswordTextfield, textInputLayout,
+          googleImageButton, linearProgressBar, passwordTextInputLayout, passwordTextfield,
+          repeatPasswordTextView, repeatPasswordTextfield, signupButton, textInputLayout,
           textInputLayout2, textInputLayout3, textView3, textView4, textView5, textView6,
           usernameTextfield, view, view2);
     }

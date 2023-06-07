@@ -11,12 +11,14 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
+import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import org.tensorflow.codelabs.objectdetection.MainActivity
 import org.tensorflow.codelabs.objectdetection.data.AppRepository
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreHelper
 import org.tensorflow.codelabs.objectdetection.di.Injection
+import retrofit2.HttpException
 import java.lang.Exception
 
 class LoginViewmodel(private val appRepository: AppRepository, private val application: Application): ViewModel() {
@@ -32,18 +34,21 @@ class LoginViewmodel(private val appRepository: AppRepository, private val appli
         _linearProgressVisibility.value = true
         viewModelScope.launch {
             try {
-                val responseBody = appRepository.login(identifier,password).body()
-                _linearProgressVisibility.value = false
-                _isLoggedin.value = true
-                Log.d("responseBody",responseBody.toString())
-                if (responseBody != null) {
-                    preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.TOKEN, responseBody.jwt)
+                val response = appRepository.login(identifier,password)
+                if(response.isSuccessful) {
+                    if (response.body() != null) {
+                        preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.TOKEN, response.body()!!.jwt)
+                        _linearProgressVisibility.value = false
+                        _isLoggedin.value = true
+                    }
+                }else if(response.code() == 400){
+                    _linearProgressVisibility.value = false
+                    Toast.makeText(application as Context, "Wrong identifier or password",Toast.LENGTH_SHORT).show()
                 }
-
-            }catch (e: Exception) {
-                Log.d("error123","Error in login")
+            }
+            catch (e: Exception) {
+                Log.d("httpException123",e.toString())
                 _linearProgressVisibility.value = false
-                _isLoggedin.value = false
                 Toast.makeText(application as Context, "Login Failed please try again",Toast.LENGTH_SHORT).show()
             }
         }

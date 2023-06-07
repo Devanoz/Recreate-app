@@ -1,6 +1,5 @@
 package org.tensorflow.codelabs.objectdetection.api
 
-
 import org.tensorflow.codelabs.objectdetection.api.model.LoginModel
 import org.tensorflow.codelabs.objectdetection.api.model.RegisterModel
 import org.tensorflow.codelabs.objectdetection.api.pojo.login.LoginResponse

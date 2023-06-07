@@ -2857,6 +2857,7 @@ id showCustom
 id showHome
 id showTitle
 id signUp_textView
+id signup_button
 id sin
 id skipCollapsed
 id slide
