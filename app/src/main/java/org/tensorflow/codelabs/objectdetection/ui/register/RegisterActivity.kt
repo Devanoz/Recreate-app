@@ -17,6 +17,7 @@ class RegisterActivity : AppCompatActivity() {
         val passwordInput = binding.passwordTextfield
         val repeatPasswordInput = binding.repeatPasswordTextfield
 
+
     }
 
 
