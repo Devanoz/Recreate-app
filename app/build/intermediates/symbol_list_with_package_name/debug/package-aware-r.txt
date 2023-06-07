@@ -2650,6 +2650,8 @@ id easeInOut
 id easeOut
 id edit_query
 id elastic
+id email_textfield
+id email_textview
 id end
 id endToStart
 id enterAlways
@@ -2801,6 +2803,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password_textInputLayout
 id password_textfield
 id password_toggle
 id path
@@ -2817,6 +2820,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id repeat_password_textView
+id repeat_password_textfield
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2851,6 +2856,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signUp_textView
 id sin
 id skipCollapsed
 id slide
@@ -2902,6 +2908,7 @@ id text2
 id textEnd
 id textInputLayout
 id textInputLayout2
+id textInputLayout3
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2910,6 +2917,7 @@ id textView
 id textView3
 id textView4
 id textView5
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2940,6 +2948,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username_textfield
 id view
 id view2
 id viewFinder

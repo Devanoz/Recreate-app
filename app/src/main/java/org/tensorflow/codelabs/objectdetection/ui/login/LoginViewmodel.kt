@@ -32,11 +32,13 @@ class LoginViewmodel(private val appRepository: AppRepository, private val appli
         _linearProgressVisibility.value = true
         viewModelScope.launch {
             try {
-                val responseBody = appRepository.login(identifier,password)
+                val responseBody = appRepository.login(identifier,password).body()
                 _linearProgressVisibility.value = false
                 _isLoggedin.value = true
                 Log.d("responseBody",responseBody.toString())
-                preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.TOKEN, responseBody.jwt)
+                if (responseBody != null) {
+                    preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.TOKEN, responseBody.jwt)
+                }
 
             }catch (e: Exception) {
                 Log.d("error123","Error in login")

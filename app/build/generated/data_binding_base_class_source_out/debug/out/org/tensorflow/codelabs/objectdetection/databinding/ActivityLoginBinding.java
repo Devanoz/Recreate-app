@@ -43,6 +43,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextInputEditText passwordTextfield;
 
   @NonNull
+  public final TextView signUpTextView;
+
+  @NonNull
   public final TextInputLayout textInputLayout;
 
   @NonNull
@@ -70,9 +73,10 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull ImageButton googleImageButton, @NonNull TextInputEditText identifierTextfield,
       @NonNull ImageView imageView2, @NonNull LinearProgressIndicator linearProgressBar,
       @NonNull MaterialButton loginButton, @NonNull TextInputEditText passwordTextfield,
-      @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2,
-      @NonNull TextView textView, @NonNull TextView textView3, @NonNull TextView textView4,
-      @NonNull TextView textView5, @NonNull View view, @NonNull View view2) {
+      @NonNull TextView signUpTextView, @NonNull TextInputLayout textInputLayout,
+      @NonNull TextInputLayout textInputLayout2, @NonNull TextView textView,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull View view, @NonNull View view2) {
     this.rootView = rootView;
     this.googleImageButton = googleImageButton;
     this.identifierTextfield = identifierTextfield;
@@ -80,6 +84,7 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.linearProgressBar = linearProgressBar;
     this.loginButton = loginButton;
     this.passwordTextfield = passwordTextfield;
+    this.signUpTextView = signUpTextView;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
     this.textView = textView;
@@ -153,6 +158,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.signUp_textView;
+      TextView signUpTextView = rootView.findViewById(id);
+      if (signUpTextView == null) {
+        break missingId;
+      }
+
       id = R.id.textInputLayout;
       TextInputLayout textInputLayout = rootView.findViewById(id);
       if (textInputLayout == null) {
@@ -203,8 +214,8 @@ public final class ActivityLoginBinding implements ViewBinding {
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, googleImageButton,
           identifierTextfield, imageView2, linearProgressBar, loginButton, passwordTextfield,
-          textInputLayout, textInputLayout2, textView, textView3, textView4, textView5, view,
-          view2);
+          signUpTextView, textInputLayout, textInputLayout2, textView, textView3, textView4,
+          textView5, view, view2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

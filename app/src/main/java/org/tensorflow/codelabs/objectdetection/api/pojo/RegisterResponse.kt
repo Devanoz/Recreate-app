@@ -8,10 +8,10 @@ data class RegisterResponse(
 	val jwt: String,
 
 	@field:SerializedName("user")
-	val user: RegisterUser
+	val user: User
 )
 
-data class RegisterUser(
+data class User(
 
 	@field:SerializedName("createdAt")
 	val createdAt: String,
@@ -21,6 +21,9 @@ data class RegisterUser(
 
 	@field:SerializedName("provider")
 	val provider: String,
+
+	@field:SerializedName("name")
+	val name: Any,
 
 	@field:SerializedName("id")
 	val id: Int,
