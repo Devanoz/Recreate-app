@@ -4,18 +4,17 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import com.google.android.material.textfield.TextInputEditText
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityRegisterBinding
 
-
 class RegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding
 
     private val viewModel by viewModels<RegisterViewModel> { RegisterViewModelFactory(application) }
-
 
     private lateinit var usernameInput: TextInputEditText
     private lateinit var emailInput: TextInputEditText
@@ -41,20 +40,36 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         signupButton.setOnClickListener {
+            checkRegisterValidationAndSubmit()
+        }
+        setRegisterValidation()
+        viewModel.isRegistered.observe(this) {registerSuccess ->
+            if(registerSuccess) {
+                Toast.makeText(this,"Registration Success",Toast.LENGTH_SHORT).show()
+                finish()
+            }
+        }
+    }
+
+    private fun setRegisterValidation() {
+        emailInput.addTextChangedListener {
+            if (it != null) {
+                if(!isValidEmail(it.toString()) && it.isNotEmpty()) {
+                    emailInput.error = "Email is not Valid"
+                }
+            }
+        }
+    }
+
+    private fun checkRegisterValidationAndSubmit () {
+        val password = passwordInput.text.toString()
+        val repeatPassword = repeatPasswordInput.text.toString()
+        if( (password == repeatPassword) && (isValidEmail(emailInput.text.toString())) ) {
             viewModel.register(
                 username = usernameInput.text.toString(),
                 email = emailInput.text.toString(),
                 password = passwordInput.toString()
             )
-        }
-        setRegisterValidation()
-    }
-
-    private fun setRegisterValidation() {
-        emailInput.addTextChangedListener {
-            if(!isValidEmail(it.toString())) {
-                emailInput.error = "Email is not Valid"
-            }
         }
     }
 
