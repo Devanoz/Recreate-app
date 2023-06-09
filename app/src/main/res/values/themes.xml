@@ -40,9 +40,9 @@
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/md_theme_light_primary</item>
         <item name="android:height">80dp</item>
-        <item name="android:width">200dp</item>
+        <item name="android:width">300dp</item>
         <item name="marginHorizontal">0dp</item>
-        <item name="cornerSize">20dp</item>
+        <item name="cornerSize">37dp</item>
     </style>
 
     <style name="App.Custom.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
@@ -54,5 +54,10 @@
 
     <style name="App.Fab.Custom" parent="Widget.Material3.FloatingActionButton.Large.Secondary">
 
+    </style>
+    
+    <style name="App.Imageview.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
     </style>
 </resources>

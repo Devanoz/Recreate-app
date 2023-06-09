@@ -4,25 +4,46 @@ package org.tensorflow.codelabs.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import org.tensorflow.codelabs.objectdetection.R;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView createdAtTextview;
+
+  @NonNull
+  public final TextView emailTextview;
+
+  @NonNull
+  public final ShapeableImageView shapeableImageView;
+
+  @NonNull
+  public final TextView usernameTextview;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView createdAtTextview, @NonNull TextView emailTextview,
+      @NonNull ShapeableImageView shapeableImageView, @NonNull TextView usernameTextview) {
     this.rootView = rootView;
+    this.createdAtTextview = createdAtTextview;
+    this.emailTextview = emailTextview;
+    this.shapeableImageView = shapeableImageView;
+    this.usernameTextview = usernameTextview;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +64,38 @@ public final class FragmentProfileBinding implements ViewBinding {
 
   @NonNull
   public static FragmentProfileBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.created_at_textview;
+      TextView createdAtTextview = rootView.findViewById(id);
+      if (createdAtTextview == null) {
+        break missingId;
+      }
 
-    return new FragmentProfileBinding((FrameLayout) rootView);
+      id = R.id.email_textview;
+      TextView emailTextview = rootView.findViewById(id);
+      if (emailTextview == null) {
+        break missingId;
+      }
+
+      id = R.id.shapeableImageView;
+      ShapeableImageView shapeableImageView = rootView.findViewById(id);
+      if (shapeableImageView == null) {
+        break missingId;
+      }
+
+      id = R.id.username_textview;
+      TextView usernameTextview = rootView.findViewById(id);
+      if (usernameTextview == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, createdAtTextview,
+          emailTextview, shapeableImageView, usernameTextview);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

@@ -66,7 +66,6 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val uri = intent.getStringExtra("imageUri")
         Log.d("uri123",uri.toString())
 
@@ -135,11 +134,11 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
         // Step 2: Initialize the detector object
         val options = ObjectDetector.ObjectDetectorOptions.builder()
                 .setMaxResults(5)
-                .setScoreThreshold(0.3f)
+                .setScoreThreshold(0.5f)
                 .build()
         val detector = ObjectDetector.createFromFileAndOptions(
                 this,
-                "detect_meta.tflite",
+                "detect_meta_2.tflite",
                 options
         )
 

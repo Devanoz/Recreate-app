@@ -10,7 +10,7 @@
         android:id="@+id/botom_navigation_view"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginHorizontal="32dp"
         app:itemIconSize="40dp"
         app:itemIconTint="@color/yellow_tertiary"
@@ -38,20 +38,10 @@
         app:maxImageSize="40dp"
         app:shapeAppearanceOverlay="@style/fab_rounded" />
 
-    <View
-        android:id="@+id/bottom_navigation_wrapper"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@color/yellow_tertiary"
-        app:layout_anchor="@id/botom_navigation_view"
-        app:layout_anchorGravity="bottom|center"
-        />
-
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/home_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_anchor="@id/bottom_navigation_wrapper"
         app:layout_anchorGravity="top"
         android:name="org.tensorflow.codelabs.objectdetection.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home" />

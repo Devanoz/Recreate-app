@@ -2488,6 +2488,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile
+drawable profile_section_background
 drawable recreate_logo
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -2582,7 +2583,6 @@ id beginning
 id blocking
 id botom_navigation_view
 id bottom
-id bottom_navigation_wrapper
 id bounce
 id buttonPanel
 id cache_measures
@@ -2616,6 +2616,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id created_at_textview
 id custom
 id customPanel
 id cut
@@ -2852,6 +2853,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id shapeableImageView
 id shortcut
 id showCustom
 id showHome
@@ -2950,6 +2952,7 @@ id unlabeled
 id up
 id useLogo
 id username_textfield
+id username_textview
 id view
 id view2
 id viewFinder
@@ -3297,6 +3300,7 @@ style Animation_MaterialComponents_BottomSheetDialog
 style App_Custom_BottomNavigationView
 style App_Custom_Indicator
 style App_Fab_Custom
+style App_Imageview_Rounded
 style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light

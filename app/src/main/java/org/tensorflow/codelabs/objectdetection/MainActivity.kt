@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
-//        binding.bottomNavigationView.menu.getItem(1).isEnabled = false
 
         val preferencesDataStoreHelper = PreferencesDataStoreHelper(application)
 
@@ -52,19 +51,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, CameraPreview::class.java))
         }
 
-
-//        supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container, HomeFragment()).commit()
-//        binding.bottomNavigationView.setOnItemSelectedListener {
-//            when(it.itemId) {
-//                R.id.home_menu -> {
-//                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,HomeFragment()).commit()
-//                }
-//                R.id.profile_menu -> {
-//                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,ProfileFragment()).commit()
-//                }
-//            }
-//            true
-//        }
+        supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container, HomeFragment()).commit()
+        binding.botomNavigationView.setOnItemSelectedListener {
+            when(it.itemId) {
+                R.id.home_menu -> {
+                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,HomeFragment()).commit()
+                }
+                R.id.profile_menu -> {
+                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,ProfileFragment()).commit()
+                }
+            }
+            true
+        }
     }
 
     /**
