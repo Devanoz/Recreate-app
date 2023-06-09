@@ -9,11 +9,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.tensorflow.codelabs.objectdetection.data.AppRepository
+import org.tensorflow.codelabs.objectdetection.data.repository.AppRepository
 import org.tensorflow.codelabs.objectdetection.di.Injection
 import java.lang.Exception
 
-class RegisterViewModel(private val appRepository: AppRepository,private val application: Application): ViewModel() {
+class RegisterViewModel(private val appRepository: AppRepository, private val application: Application): ViewModel() {
 
     private val _linearProgressBarVisibillity = MutableLiveData(false)
     val linearProgressBarVisibillity: LiveData<Boolean> get() = _linearProgressBarVisibillity
@@ -41,7 +41,7 @@ class RegisterViewModel(private val appRepository: AppRepository,private val app
 class RegisterViewModelFactory constructor(private val application: Application) :
     ViewModelProvider.Factory {
 
-    private val repository = Injection.provideRepository(application as Context)
+    private val repository = Injection.provideAuthRepository(application as Context)
 
     @Suppress("unchecked_cast")
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

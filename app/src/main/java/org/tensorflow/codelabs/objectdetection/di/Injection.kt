@@ -4,19 +4,16 @@ import android.content.Context
 
 import kotlinx.coroutines.runBlocking
 import org.tensorflow.codelabs.objectdetection.api.ApiConfig
-import org.tensorflow.codelabs.objectdetection.data.AppRepository
+import org.tensorflow.codelabs.objectdetection.data.repository.AppRepository
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreHelper
+import org.tensorflow.codelabs.objectdetection.data.repository.ProfileRepository
 
 object Injection {
-    fun provideRepository(context: Context): AppRepository {
-        val token = runBlocking {
-            PreferencesDataStoreHelper(context).getFirstPreference(
-                PreferencesDataStoreConstans.TOKEN,
-                ""
-            )
-        }
-        val apiService = ApiConfig.getApiServiceWithToken(token)
+    fun provideAuthRepository(context: Context): AppRepository {
         return AppRepository(context = context)
+    }
+    fun provideProfileRepository(context: Context): ProfileRepository {
+        return ProfileRepository(context)
     }
 }

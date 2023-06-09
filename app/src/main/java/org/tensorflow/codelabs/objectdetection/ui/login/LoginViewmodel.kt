@@ -1,9 +1,7 @@
 package org.tensorflow.codelabs.objectdetection.ui.login
 
-import android.app.Activity
 import android.app.Application
 import android.content.Context
-import android.content.Intent
 import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.LiveData
@@ -11,14 +9,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.google.gson.Gson
 import kotlinx.coroutines.launch
-import org.tensorflow.codelabs.objectdetection.MainActivity
-import org.tensorflow.codelabs.objectdetection.data.AppRepository
+import org.tensorflow.codelabs.objectdetection.data.repository.AppRepository
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreHelper
 import org.tensorflow.codelabs.objectdetection.di.Injection
-import retrofit2.HttpException
 import java.lang.Exception
 
 class LoginViewmodel(private val appRepository: AppRepository, private val application: Application): ViewModel() {
@@ -58,7 +53,7 @@ class LoginViewmodel(private val appRepository: AppRepository, private val appli
 class LoginViewModelFactory constructor(private val application: Application) :
     ViewModelProvider.Factory {
 
-    private val repository = Injection.provideRepository(application as Context)
+    private val repository = Injection.provideAuthRepository(application as Context)
 
     @Suppress("unchecked_cast")
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

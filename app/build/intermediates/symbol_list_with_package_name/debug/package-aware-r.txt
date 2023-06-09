@@ -2427,6 +2427,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_24
 drawable fab_camera
 drawable google_icon
 drawable house
@@ -2681,6 +2682,7 @@ id fragment_container_view_tag
 id frameLayout
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id google_image_button
 id graph
@@ -3766,6 +3768,7 @@ style TextAppearance_MaterialComponents_Tooltip
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style Textappearance_TextColor_Black
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight
