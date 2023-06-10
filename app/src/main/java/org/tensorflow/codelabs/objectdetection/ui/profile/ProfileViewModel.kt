@@ -37,6 +37,12 @@ class ProfileViewModel(private val profileRepository: ProfileRepository): ViewMo
             }
         }
     }
+
+    fun logout() {
+        viewModelScope.launch {
+            profileRepository.logout()
+        }
+    }
 }
 
 class ProfileViewModelFactory constructor(private val application: Application) :

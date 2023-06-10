@@ -6,7 +6,7 @@ data class ProfileResponse(
 	val provider: String,
 	val name: Name,
 	val id: Int,
-	val avatar: Any,
+	val avatar: String,
 	val confirmed: Boolean,
 	val recommendations: List<Any>,
 	val email: String,

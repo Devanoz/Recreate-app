@@ -7,7 +7,7 @@
     tools:context=".ui.profile.ProfileFragment">
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/shapeableImageView"
+        android:id="@+id/profile_imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="32dp"
@@ -15,25 +15,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:shapeAppearanceOverlay="@style/App.Imageview.Rounded"
-        app:srcCompat="@drawable/img_meal_one" />
+        app:shapeAppearanceOverlay="@style/App.Imageview.Rounded" />
 
     <TextView
         android:id="@+id/username_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Muhammad Devano Zaidan"
         android:layout_marginTop="16dp"
         android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />
+        app:layout_constraintTop_toBottomOf="@+id/profile_imageView" />
 
     <TextView
         android:id="@+id/email_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="devanozaidan@gmail.com"
         android:layout_marginTop="8dp"
         android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +42,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Joined at May 2023"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_textview" />
@@ -82,6 +78,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/username_textField"
                     android:background="@android:color/transparent"
+                    android:textColor="@android:color/black"
                     android:drawableEnd="@drawable/edit_24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -100,6 +97,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/email_textfield"
                     android:background="@android:color/transparent"
+                    android:textColor="@android:color/black"
                     android:drawableEnd="@drawable/edit_24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -119,11 +117,13 @@
                     android:id="@+id/joined_at_textField"
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/edit_24"
+                    android:textColor="@android:color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/logout_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

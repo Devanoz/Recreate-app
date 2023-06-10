@@ -32,9 +32,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import androidx.exifinterface.media.ExifInterface
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.tensorflow.codelabs.objectdetection.R
+import org.tensorflow.codelabs.objectdetection.databinding.ActivityMainBinding
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.task.vision.detector.Detection
 import org.tensorflow.lite.task.vision.detector.ObjectDetector
@@ -60,12 +62,13 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
 //    private lateinit var tvPlaceholder: TextView
     private lateinit var currentPhotoPath: String
 
-    private lateinit var labelText: TextView
+
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         val uri = intent.getStringExtra("imageUri")
         Log.d("uri123",uri.toString())
 
@@ -81,7 +84,6 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
 //        imgSampleTwo.setOnClickListener(this)
 //        imgSampleThree.setOnClickListener(this)
 
-        labelText = findViewById(R.id.label_result)
 
         val imageUri = Uri.parse(uri)
         val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUri)
@@ -166,7 +168,11 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
             labels.forEach {
                 resultLabel += "$it "
             }
-            labelText.text = resultLabel
+            //do label code here
+            binding.labelRv.apply {
+                layoutManager = LinearLayoutManager(this@CameraActivity,LinearLayoutManager.HORIZONTAL,false)
+                adapter = LabelAdapter(labels)
+            }
         }
     }
 

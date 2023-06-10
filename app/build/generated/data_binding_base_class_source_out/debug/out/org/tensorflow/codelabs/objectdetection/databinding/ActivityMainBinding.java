@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -18,7 +18,7 @@ import org.tensorflow.codelabs.objectdetection.R;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final FrameLayout frameLayout;
@@ -27,23 +27,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
-  public final TextView label;
+  public final RecyclerView labelRv;
 
-  @NonNull
-  public final TextView labelResult;
-
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull FrameLayout frameLayout,
-      @NonNull ImageView imageView, @NonNull TextView label, @NonNull TextView labelResult) {
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull FrameLayout frameLayout,
+      @NonNull ImageView imageView, @NonNull RecyclerView labelRv) {
     this.rootView = rootView;
     this.frameLayout = frameLayout;
     this.imageView = imageView;
-    this.label = label;
-    this.labelResult = labelResult;
+    this.labelRv = labelRv;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -80,20 +76,13 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.label;
-      TextView label = rootView.findViewById(id);
-      if (label == null) {
+      id = R.id.label_rv;
+      RecyclerView labelRv = rootView.findViewById(id);
+      if (labelRv == null) {
         break missingId;
       }
 
-      id = R.id.label_result;
-      TextView labelResult = rootView.findViewById(id);
-      if (labelResult == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((RelativeLayout) rootView, frameLayout, imageView, label,
-          labelResult);
+      return new ActivityMainBinding((LinearLayout) rootView, frameLayout, imageView, labelRv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

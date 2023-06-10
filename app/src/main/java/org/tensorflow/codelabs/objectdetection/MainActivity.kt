@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
 
         val preferencesDataStoreHelper = PreferencesDataStoreHelper(application)
 
-
         lifecycleScope.launch {
             preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.TOKEN, "")
                 .collect {

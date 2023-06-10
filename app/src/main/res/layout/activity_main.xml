@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context="org.tensorflow.codelabs.objectdetection.MainActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         >
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
@@ -21,79 +21,40 @@
             android:scaleType="centerCrop" />
     </FrameLayout>
 
-    <TextView
-        android:id="@+id/label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/frameLayout"
-        android:text="Label"
-        />
-    <TextView
-        android:id="@+id/label_result"
-        android:layout_below="@id/label"
-        android:layout_width="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/label_rv"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="8dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        />
+        tools:itemCount="1"
+        android:orientation="horizontal" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvDescription"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_above="@id/llSampleImage"-->
-<!--        android:layout_marginStart="16dp"-->
-<!--        android:layout_marginTop="10dp"-->
-<!--        android:layout_marginBottom="10dp"-->
-<!--        android:text="@string/tv_description" />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:layout_height="200dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/article_ilustration"
+            />
+    </androidx.cardview.widget.CardView>
 
-<!--    <LinearLayout-->
-<!--        android:id="@+id/llSampleImage"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_above="@+id/captureImageFab"-->
-<!--        android:gravity="center_horizontal"-->
-<!--        android:orientation="horizontal">-->
-
-<!--        <ImageView-->
-<!--            android:id="@+id/imgSampleOne"-->
-<!--            android:layout_width="80dp"-->
-<!--            android:layout_height="80dp"-->
-<!--            android:adjustViewBounds="true"-->
-<!--            android:contentDescription="@null"-->
-<!--            android:scaleType="centerCrop"-->
-<!--            android:src="@drawable/img_meal_one" />-->
-
-<!--        <ImageView-->
-<!--            android:id="@+id/imgSampleTwo"-->
-<!--            android:layout_width="80dp"-->
-<!--            android:layout_height="80dp"-->
-<!--            android:layout_marginStart="16dp"-->
-<!--            android:layout_marginEnd="16dp"-->
-<!--            android:adjustViewBounds="true"-->
-<!--            android:contentDescription="@null"-->
-<!--            android:scaleType="centerCrop"-->
-<!--            android:src="@drawable/img_meal_two" />-->
-
-<!--        <ImageView-->
-<!--            android:id="@+id/imgSampleThree"-->
-<!--            android:layout_width="80dp"-->
-<!--            android:layout_height="80dp"-->
-<!--            android:adjustViewBounds="true"-->
-<!--            android:contentDescription="@null"-->
-<!--            android:scaleType="centerCrop"-->
-<!--            android:src="@drawable/img_meal_three" />-->
-<!--    </LinearLayout>-->
-
-<!--    <Button-->
-<!--        android:id="@+id/captureImageFab"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_gravity="center|bottom"-->
-<!--        android:layout_margin="16dp"-->
-<!--        android:drawableLeft="@drawable/ic_camera"-->
-<!--        android:text="@string/tv_take_photo"-->
-<!--        android:textAllCaps="false" />-->
-
-</RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_height="200dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/video_illustration"
+            />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
