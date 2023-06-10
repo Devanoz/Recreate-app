@@ -1,8 +1,7 @@
-package org.tensorflow.codelabs.objectdetection.ui.recomendation
+package org.tensorflow.codelabs.objectdetection.ui.recomendation.video
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoListBinding
 
 class VideoListActivity : AppCompatActivity() {

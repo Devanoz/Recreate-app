@@ -25,10 +25,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.recomendation.VideoListActivity"
+            android:name=".ui.recomendation.video.VideoListActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.recomendation.ArticleListActivity"
+            android:name=".ui.recomendation.article.ArticleListActivity"
             android:exported="false" />
         <activity
             android:name=".ui.register.RegisterActivity"

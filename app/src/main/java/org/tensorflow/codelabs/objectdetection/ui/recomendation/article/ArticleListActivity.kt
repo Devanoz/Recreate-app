@@ -1,4 +1,4 @@
-package org.tensorflow.codelabs.objectdetection.ui.recomendation
+package org.tensorflow.codelabs.objectdetection.ui.recomendation.article
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
