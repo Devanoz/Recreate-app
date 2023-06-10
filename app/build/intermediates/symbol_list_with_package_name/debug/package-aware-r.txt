@@ -2591,6 +2591,8 @@ id bounce
 id buttonPanel
 id cache_measures
 id cancel_button
+id cardView_article
+id cardView_video
 id center
 id center_horizontal
 id center_vertical

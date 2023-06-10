@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import java.lang.NullPointerException;
@@ -21,6 +22,12 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final CardView cardViewArticle;
+
+  @NonNull
+  public final CardView cardViewVideo;
+
+  @NonNull
   public final FrameLayout frameLayout;
 
   @NonNull
@@ -29,9 +36,12 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView labelRv;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull FrameLayout frameLayout,
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull CardView cardViewArticle,
+      @NonNull CardView cardViewVideo, @NonNull FrameLayout frameLayout,
       @NonNull ImageView imageView, @NonNull RecyclerView labelRv) {
     this.rootView = rootView;
+    this.cardViewArticle = cardViewArticle;
+    this.cardViewVideo = cardViewVideo;
     this.frameLayout = frameLayout;
     this.imageView = imageView;
     this.labelRv = labelRv;
@@ -64,6 +74,18 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardView_article;
+      CardView cardViewArticle = rootView.findViewById(id);
+      if (cardViewArticle == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView_video;
+      CardView cardViewVideo = rootView.findViewById(id);
+      if (cardViewVideo == null) {
+        break missingId;
+      }
+
       id = R.id.frameLayout;
       FrameLayout frameLayout = rootView.findViewById(id);
       if (frameLayout == null) {
@@ -82,7 +104,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, frameLayout, imageView, labelRv);
+      return new ActivityMainBinding((LinearLayout) rootView, cardViewArticle, cardViewVideo,
+          frameLayout, imageView, labelRv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

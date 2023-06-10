@@ -84,6 +84,13 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
 //        imgSampleTwo.setOnClickListener(this)
 //        imgSampleThree.setOnClickListener(this)
 
+        binding.cardViewArticle.setOnClickListener {
+
+        }
+
+        binding.cardViewVideo.setOnClickListener {
+
+        }
 
         val imageUri = Uri.parse(uri)
         val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUri)
