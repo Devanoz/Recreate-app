@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,21 +24,35 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView createdAtTextview;
 
   @NonNull
+  public final TextInputEditText emailTextfield;
+
+  @NonNull
   public final TextView emailTextview;
+
+  @NonNull
+  public final TextInputEditText joinedAtTextField;
 
   @NonNull
   public final ShapeableImageView shapeableImageView;
 
   @NonNull
+  public final TextInputEditText usernameTextField;
+
+  @NonNull
   public final TextView usernameTextview;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView createdAtTextview, @NonNull TextView emailTextview,
-      @NonNull ShapeableImageView shapeableImageView, @NonNull TextView usernameTextview) {
+      @NonNull TextView createdAtTextview, @NonNull TextInputEditText emailTextfield,
+      @NonNull TextView emailTextview, @NonNull TextInputEditText joinedAtTextField,
+      @NonNull ShapeableImageView shapeableImageView, @NonNull TextInputEditText usernameTextField,
+      @NonNull TextView usernameTextview) {
     this.rootView = rootView;
     this.createdAtTextview = createdAtTextview;
+    this.emailTextfield = emailTextfield;
     this.emailTextview = emailTextview;
+    this.joinedAtTextField = joinedAtTextField;
     this.shapeableImageView = shapeableImageView;
+    this.usernameTextField = usernameTextField;
     this.usernameTextview = usernameTextview;
   }
 
@@ -74,15 +89,33 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.email_textfield;
+      TextInputEditText emailTextfield = rootView.findViewById(id);
+      if (emailTextfield == null) {
+        break missingId;
+      }
+
       id = R.id.email_textview;
       TextView emailTextview = rootView.findViewById(id);
       if (emailTextview == null) {
         break missingId;
       }
 
+      id = R.id.joined_at_textField;
+      TextInputEditText joinedAtTextField = rootView.findViewById(id);
+      if (joinedAtTextField == null) {
+        break missingId;
+      }
+
       id = R.id.shapeableImageView;
       ShapeableImageView shapeableImageView = rootView.findViewById(id);
       if (shapeableImageView == null) {
+        break missingId;
+      }
+
+      id = R.id.username_textField;
+      TextInputEditText usernameTextField = rootView.findViewById(id);
+      if (usernameTextField == null) {
         break missingId;
       }
 
@@ -93,7 +126,8 @@ public final class FragmentProfileBinding implements ViewBinding {
       }
 
       return new FragmentProfileBinding((ConstraintLayout) rootView, createdAtTextview,
-          emailTextview, shapeableImageView, usernameTextview);
+          emailTextfield, emailTextview, joinedAtTextField, shapeableImageView, usernameTextField,
+          usernameTextview);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

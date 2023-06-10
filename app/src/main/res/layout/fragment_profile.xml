@@ -80,6 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username_textField"
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/edit_24"
                     android:layout_width="match_parent"
@@ -97,6 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_textfield"
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/edit_24"
                     android:layout_width="match_parent"
@@ -114,6 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/joined_at_textField"
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/edit_24"
                     android:layout_width="match_parent"

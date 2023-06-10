@@ -2695,7 +2695,6 @@ id header_title
 id hideable
 id home
 id homeAsUp
-id home_fragment_container
 id home_menu
 id honorRequest
 id icon
@@ -2713,6 +2712,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id joined_at_textField
 id jumpToEnd
 id jumpToStart
 id label
@@ -2953,12 +2953,14 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username_textField
 id username_textfield
 id username_textview
 id view
 id view2
 id viewFinder
 id view_offset_helper
+id view_pager
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner

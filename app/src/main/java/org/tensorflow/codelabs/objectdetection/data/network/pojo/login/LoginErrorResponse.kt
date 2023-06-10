@@ -1,4 +1,4 @@
-package org.tensorflow.codelabs.objectdetection.api.pojo.login
+package org.tensorflow.codelabs.objectdetection.data.network.pojo.login
 
 import com.google.gson.annotations.SerializedName
 

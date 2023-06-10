@@ -1,4 +1,4 @@
-package org.tensorflow.codelabs.objectdetection.api.pojo.profile
+package org.tensorflow.codelabs.objectdetection.data.network.pojo.profile
 
 data class ProfileResponse(
 	val createdAt: String,

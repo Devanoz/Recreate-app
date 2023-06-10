@@ -1,12 +1,12 @@
 package org.tensorflow.codelabs.objectdetection.ui.profile
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import org.tensorflow.codelabs.objectdetection.R
+import com.google.android.material.textfield.TextInputEditText
 import org.tensorflow.codelabs.objectdetection.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {
@@ -14,6 +14,10 @@ class ProfileFragment : Fragment() {
     private val viewModel by viewModels<ProfileViewModel> { ProfileViewModelFactory(requireActivity().application) }
 
     private lateinit var binding: FragmentProfileBinding
+
+    private lateinit var usernameTextField: TextInputEditText
+    private lateinit var emailTextField: TextInputEditText
+    private lateinit var joinedAtTextField: TextInputEditText
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -26,7 +30,15 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.getProfileData()
+        usernameTextField = binding.usernameTextField
+        emailTextField = binding.emailTextfield
+        joinedAtTextField = binding.joinedAtTextField
+
+        viewModel.profileData.observe(viewLifecycleOwner) {
+            usernameTextField.setText(it.username)
+            emailTextField.setText(it.email)
+            joinedAtTextField.setText(it.createdAt)
+        }
     }
 
 }

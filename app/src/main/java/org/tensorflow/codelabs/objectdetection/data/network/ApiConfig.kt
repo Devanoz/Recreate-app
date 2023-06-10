@@ -1,4 +1,4 @@
-package org.tensorflow.codelabs.objectdetection.api
+package org.tensorflow.codelabs.objectdetection.data.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

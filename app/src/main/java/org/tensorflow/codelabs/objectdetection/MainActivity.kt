@@ -9,7 +9,10 @@ import android.provider.ContactsContract.Profile
 import android.provider.MediaStore
 import android.util.Log
 import androidx.core.content.FileProvider
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.commit
 import androidx.lifecycle.lifecycleScope
+import androidx.viewpager2.widget.ViewPager2
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
@@ -51,14 +54,28 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, CameraPreview::class.java))
         }
 
-        supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container, HomeFragment()).commit()
+
+        val viewPager = binding.viewPager
+        viewPager.adapter = HomePagerAdapter(supportFragmentManager,lifecycle)
+
+        viewPager.registerOnPageChangeCallback(object: ViewPager2.OnPageChangeCallback() {
+            override fun onPageSelected(position: Int) {
+                super.onPageSelected(position)
+                if(position == 0) {
+                    binding.botomNavigationView.menu.findItem(R.id.home_menu).isChecked = true
+                }else {
+                    binding.botomNavigationView.menu.findItem(R.id.profile_menu).isChecked = true
+                }
+            }
+        })
+
         binding.botomNavigationView.setOnItemSelectedListener {
             when(it.itemId) {
                 R.id.home_menu -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,HomeFragment()).commit()
+                   viewPager.currentItem = 0
                 }
                 R.id.profile_menu -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.home_fragment_container,ProfileFragment()).commit()
+                    viewPager.currentItem = 1
                 }
             }
             true

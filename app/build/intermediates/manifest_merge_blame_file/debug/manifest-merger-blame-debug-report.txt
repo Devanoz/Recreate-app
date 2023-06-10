@@ -150,6 +150,14 @@
 85                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
 85-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:32:17-86
 86        </service>
-87    </application>
-88
-89</manifest>
+87        <service
+87-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+88            android:name="androidx.room.MultiInstanceInvalidationService"
+88-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+89            android:directBootAware="true"
+89-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+90            android:exported="false" />
+90-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+91    </application>
+92
+93</manifest>

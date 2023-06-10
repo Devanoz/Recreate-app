@@ -3,14 +3,13 @@ package org.tensorflow.codelabs.objectdetection.ui.profile
 import android.app.Application
 import android.content.Context
 import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.tensorflow.codelabs.objectdetection.api.pojo.profile.ProfileResponse
+import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.ProfileResponse
 import org.tensorflow.codelabs.objectdetection.data.repository.ProfileRepository
 import org.tensorflow.codelabs.objectdetection.di.Injection
 import java.lang.Exception

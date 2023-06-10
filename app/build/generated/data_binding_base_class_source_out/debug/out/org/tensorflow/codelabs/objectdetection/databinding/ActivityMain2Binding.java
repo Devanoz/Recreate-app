@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
@@ -27,15 +27,15 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final FloatingActionButton fabCamera;
 
   @NonNull
-  public final FragmentContainerView homeFragmentContainer;
+  public final ViewPager2 viewPager;
 
   private ActivityMain2Binding(@NonNull CoordinatorLayout rootView,
       @NonNull BottomNavigationView botomNavigationView, @NonNull FloatingActionButton fabCamera,
-      @NonNull FragmentContainerView homeFragmentContainer) {
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.botomNavigationView = botomNavigationView;
     this.fabCamera = fabCamera;
-    this.homeFragmentContainer = homeFragmentContainer;
+    this.viewPager = viewPager;
   }
 
   @Override
@@ -77,14 +77,14 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.home_fragment_container;
-      FragmentContainerView homeFragmentContainer = rootView.findViewById(id);
-      if (homeFragmentContainer == null) {
+      id = R.id.view_pager;
+      ViewPager2 viewPager = rootView.findViewById(id);
+      if (viewPager == null) {
         break missingId;
       }
 
       return new ActivityMain2Binding((CoordinatorLayout) rootView, botomNavigationView, fabCamera,
-          homeFragmentContainer);
+          viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
