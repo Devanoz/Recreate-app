@@ -17,6 +17,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/App.Imageview.Rounded" />
 
+    <ImageView
+        android:id="@+id/edit_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/edit_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/yellow_tertiary"
+        android:contentDescription="edit_icon" />
+
     <TextView
         android:id="@+id/username_textview"
         android:layout_width="wrap_content"
@@ -69,58 +81,70 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                 android:text="Username"
                 />
-            <com.google.android.material.textfield.TextInputLayout
-                style="?attr/textInputFilledStyle"
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:text=""/>
+
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/username_textField"
-                    android:background="@android:color/transparent"
-                    android:textColor="@android:color/black"
-                    android:drawableEnd="@drawable/edit_24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/md_theme_light_onPrimary"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Email"
+                style="@style/TextAppearance.Material3.TitleMedium"
                 android:layout_marginTop="8dp"
                 />
-            <com.google.android.material.textfield.TextInputLayout
-                style="?attr/textInputFilledStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/email_textfield"
-                    android:background="@android:color/transparent"
-                    android:textColor="@android:color/black"
-                    android:drawableEnd="@drawable/edit_24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-            </com.google.android.material.textfield.TextInputLayout>
 
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+                android:layout_marginTop="8dp"
+                android:text=""/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/md_theme_light_onPrimary"
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.TitleMedium"
                 android:text="Joined at"
                 android:layout_marginTop="8dp"
                 />
-            <com.google.android.material.textfield.TextInputLayout
-                style="?attr/textInputFilledStyle"
+
+            <TextView
+                android:id="@+id/tv_created_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+                android:text=""/>
+
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/joined_at_textField"
-                    android:background="@android:color/transparent"
-                    android:drawableEnd="@drawable/edit_24"
-                    android:textColor="@android:color/black"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/md_theme_light_onPrimary"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/logout_button"

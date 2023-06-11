@@ -11,7 +11,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.imageview.ShapeableImageView;
-import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,13 +24,7 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView createdAtTextview;
 
   @NonNull
-  public final TextInputEditText emailTextfield;
-
-  @NonNull
   public final TextView emailTextview;
-
-  @NonNull
-  public final TextInputEditText joinedAtTextField;
 
   @NonNull
   public final MaterialButton logoutButton;
@@ -40,24 +33,30 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final ShapeableImageView profileImageView;
 
   @NonNull
-  public final TextInputEditText usernameTextField;
+  public final TextView tvCreatedAt;
+
+  @NonNull
+  public final TextView tvEmail;
+
+  @NonNull
+  public final TextView tvUsername;
 
   @NonNull
   public final TextView usernameTextview;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView createdAtTextview, @NonNull TextInputEditText emailTextfield,
-      @NonNull TextView emailTextview, @NonNull TextInputEditText joinedAtTextField,
+      @NonNull TextView createdAtTextview, @NonNull TextView emailTextview,
       @NonNull MaterialButton logoutButton, @NonNull ShapeableImageView profileImageView,
-      @NonNull TextInputEditText usernameTextField, @NonNull TextView usernameTextview) {
+      @NonNull TextView tvCreatedAt, @NonNull TextView tvEmail, @NonNull TextView tvUsername,
+      @NonNull TextView usernameTextview) {
     this.rootView = rootView;
     this.createdAtTextview = createdAtTextview;
-    this.emailTextfield = emailTextfield;
     this.emailTextview = emailTextview;
-    this.joinedAtTextField = joinedAtTextField;
     this.logoutButton = logoutButton;
     this.profileImageView = profileImageView;
-    this.usernameTextField = usernameTextField;
+    this.tvCreatedAt = tvCreatedAt;
+    this.tvEmail = tvEmail;
+    this.tvUsername = tvUsername;
     this.usernameTextview = usernameTextview;
   }
 
@@ -94,21 +93,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.email_textfield;
-      TextInputEditText emailTextfield = rootView.findViewById(id);
-      if (emailTextfield == null) {
-        break missingId;
-      }
-
       id = R.id.email_textview;
       TextView emailTextview = rootView.findViewById(id);
       if (emailTextview == null) {
-        break missingId;
-      }
-
-      id = R.id.joined_at_textField;
-      TextInputEditText joinedAtTextField = rootView.findViewById(id);
-      if (joinedAtTextField == null) {
         break missingId;
       }
 
@@ -124,9 +111,21 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.username_textField;
-      TextInputEditText usernameTextField = rootView.findViewById(id);
-      if (usernameTextField == null) {
+      id = R.id.tv_created_at;
+      TextView tvCreatedAt = rootView.findViewById(id);
+      if (tvCreatedAt == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_email;
+      TextView tvEmail = rootView.findViewById(id);
+      if (tvEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_username;
+      TextView tvUsername = rootView.findViewById(id);
+      if (tvUsername == null) {
         break missingId;
       }
 
@@ -137,8 +136,8 @@ public final class FragmentProfileBinding implements ViewBinding {
       }
 
       return new FragmentProfileBinding((ConstraintLayout) rootView, createdAtTextview,
-          emailTextfield, emailTextview, joinedAtTextField, logoutButton, profileImageView,
-          usernameTextField, usernameTextview);
+          emailTextview, logoutButton, profileImageView, tvCreatedAt, tvEmail, tvUsername,
+          usernameTextview);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

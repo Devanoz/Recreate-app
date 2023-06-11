@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -12,7 +13,7 @@ import com.bumptech.glide.Glide
 import com.google.android.material.textfield.TextInputEditText
 import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.databinding.FragmentProfileBinding
-
+import org.w3c.dom.Text
 
 class ProfileFragment : Fragment() {
 
@@ -24,9 +25,9 @@ class ProfileFragment : Fragment() {
     private lateinit var emailTextView: TextView
     private lateinit var joinedAtTextView: TextView
 
-    private lateinit var usernameTextField: TextInputEditText
-    private lateinit var emailTextField: TextInputEditText
-    private lateinit var joinedAtTextField: TextInputEditText
+    private lateinit var usernameTextViewSection: TextView
+    private lateinit var emailTextViewSection: TextView
+    private lateinit var joinedAtTextViewSection: TextView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,31 +40,33 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        usernameTextField = binding.usernameTextField
-        emailTextField = binding.emailTextfield
-        joinedAtTextField = binding.joinedAtTextField
 
         usernameTextView = binding.usernameTextview
         emailTextView = binding.emailTextview
         joinedAtTextView = binding.createdAtTextview
 
-        usernameTextField.isEnabled = false
-        emailTextField.isEnabled = false
-        joinedAtTextField.isEnabled = false
+        usernameTextViewSection = binding.tvUsername
+        emailTextViewSection = binding.tvEmail
+        joinedAtTextViewSection = binding.tvCreatedAt
 
         viewModel.profileData.observe(viewLifecycleOwner) {
-            usernameTextField.setText(it.username)
             usernameTextView.text = it.username
-            emailTextField.setText(it.email)
             emailTextView.text = it.email
-            joinedAtTextField.setText(it.createdAt)
             joinedAtTextView.text  = it.createdAt
+
+            usernameTextViewSection.text = it.username
+            emailTextViewSection.text = it.email
+            joinedAtTextViewSection.text = it.createdAt
 
             if(it.avatar!=null) {
                 Glide.with(this).load(it.avatar).into(binding.profileImageView)
             }else {
                 binding.profileImageView.setImageDrawable(ContextCompat.getDrawable(view.context, R.drawable.default_profile))
             }
+        }
+
+        binding.editIcon.setOnClickListener {
+
         }
 
         binding.logoutButton.setOnClickListener {

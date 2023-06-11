@@ -4,8 +4,16 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_video_list.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_video_list.xml"
+    },
+    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_camera_result.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_camera_result.xml"
     },
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_camera_preview.xml",
@@ -30,5 +38,9 @@
     {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\label_item.xml",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\label_item.xml"
+    },
+    {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_article_list.xml",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_article_list.xml"
     }
 ]

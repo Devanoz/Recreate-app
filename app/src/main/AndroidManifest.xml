@@ -25,6 +25,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ui.profile.edit.EditProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.recomendation.video.VideoListActivity"
             android:exported="false" />
         <activity

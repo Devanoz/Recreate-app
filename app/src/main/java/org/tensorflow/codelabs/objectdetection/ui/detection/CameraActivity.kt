@@ -27,7 +27,6 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import androidx.exifinterface.media.ExifInterface
@@ -36,7 +35,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.tensorflow.codelabs.objectdetection.R
-import org.tensorflow.codelabs.objectdetection.databinding.ActivityMainBinding
+import org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraResultBinding
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.task.vision.detector.Detection
 import org.tensorflow.lite.task.vision.detector.ObjectDetector
@@ -63,11 +62,11 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var currentPhotoPath: String
 
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityCameraResultBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityCameraResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val uri = intent.getStringExtra("imageUri")
         Log.d("uri123",uri.toString())

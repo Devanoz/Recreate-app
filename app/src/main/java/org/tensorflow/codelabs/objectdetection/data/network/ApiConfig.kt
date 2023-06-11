@@ -3,10 +3,13 @@ package org.tensorflow.codelabs.objectdetection.data.network
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
 
 object ApiConfig {
     fun getApiServiceWithToken(token: String): ApiService {
         val okHttpClient = OkHttpClient.Builder()
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(30,TimeUnit.SECONDS)
             .addInterceptor { chain ->
                 val request = chain.request()
                     .newBuilder()
