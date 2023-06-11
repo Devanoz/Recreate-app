@@ -2655,6 +2655,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id edit_icon
 id edit_query
 id elastic
 id email_textfield
@@ -3066,6 +3067,7 @@ layout abc_tooltip
 layout activity_article_list
 layout activity_camera_preview
 layout activity_camera_result
+layout activity_edit_profile
 layout activity_login
 layout activity_main2
 layout activity_register

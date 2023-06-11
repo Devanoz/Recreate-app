@@ -4,6 +4,7 @@ package org.tensorflow.codelabs.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,6 +23,9 @@ public final class FragmentProfileBinding implements ViewBinding {
 
   @NonNull
   public final TextView createdAtTextview;
+
+  @NonNull
+  public final ImageView editIcon;
 
   @NonNull
   public final TextView emailTextview;
@@ -45,12 +49,13 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView usernameTextview;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView createdAtTextview, @NonNull TextView emailTextview,
-      @NonNull MaterialButton logoutButton, @NonNull ShapeableImageView profileImageView,
-      @NonNull TextView tvCreatedAt, @NonNull TextView tvEmail, @NonNull TextView tvUsername,
-      @NonNull TextView usernameTextview) {
+      @NonNull TextView createdAtTextview, @NonNull ImageView editIcon,
+      @NonNull TextView emailTextview, @NonNull MaterialButton logoutButton,
+      @NonNull ShapeableImageView profileImageView, @NonNull TextView tvCreatedAt,
+      @NonNull TextView tvEmail, @NonNull TextView tvUsername, @NonNull TextView usernameTextview) {
     this.rootView = rootView;
     this.createdAtTextview = createdAtTextview;
+    this.editIcon = editIcon;
     this.emailTextview = emailTextview;
     this.logoutButton = logoutButton;
     this.profileImageView = profileImageView;
@@ -90,6 +95,12 @@ public final class FragmentProfileBinding implements ViewBinding {
       id = R.id.created_at_textview;
       TextView createdAtTextview = rootView.findViewById(id);
       if (createdAtTextview == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_icon;
+      ImageView editIcon = rootView.findViewById(id);
+      if (editIcon == null) {
         break missingId;
       }
 
@@ -135,7 +146,7 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, createdAtTextview,
+      return new FragmentProfileBinding((ConstraintLayout) rootView, createdAtTextview, editIcon,
           emailTextview, logoutButton, profileImageView, tvCreatedAt, tvEmail, tvUsername,
           usernameTextview);
     }

@@ -36,6 +36,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraResultBinding
+import org.tensorflow.codelabs.objectdetection.ui.recomendation.article.ArticleListActivity
+import org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoListActivity
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.task.vision.detector.Detection
 import org.tensorflow.lite.task.vision.detector.ObjectDetector
@@ -61,7 +63,6 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
 //    private lateinit var tvPlaceholder: TextView
     private lateinit var currentPhotoPath: String
 
-
     private lateinit var binding: ActivityCameraResultBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -84,11 +85,11 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
 //        imgSampleThree.setOnClickListener(this)
 
         binding.cardViewArticle.setOnClickListener {
-
+            startActivity(Intent(this@CameraActivity,ArticleListActivity::class.java))
         }
 
         binding.cardViewVideo.setOnClickListener {
-
+            startActivity(Intent(this@CameraActivity,VideoListActivity::class.java))
         }
 
         val imageUri = Uri.parse(uri)

@@ -6,6 +6,8 @@ org/tensorflow/codelabs/objectdetection/databinding/ActivityCameraPreviewBinding
  org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraPreviewBinding
 org/tensorflow/codelabs/objectdetection/databinding/FragmentProfileBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.FragmentProfileBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityEditProfileBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityEditProfileBinding
 org/tensorflow/codelabs/objectdetection/databinding/LabelItemBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.LabelItemBinding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityRegisterBinding.java

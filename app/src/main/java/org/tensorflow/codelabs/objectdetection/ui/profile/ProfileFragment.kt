@@ -1,5 +1,6 @@
 package org.tensorflow.codelabs.objectdetection.ui.profile
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import com.bumptech.glide.Glide
 import com.google.android.material.textfield.TextInputEditText
 import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.databinding.FragmentProfileBinding
+import org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity
 import org.w3c.dom.Text
 
 class ProfileFragment : Fragment() {
@@ -66,7 +68,7 @@ class ProfileFragment : Fragment() {
         }
 
         binding.editIcon.setOnClickListener {
-
+            startActivity(Intent(requireActivity().applicationContext,EditProfileActivity::class.java))
         }
 
         binding.logoutButton.setOnClickListener {

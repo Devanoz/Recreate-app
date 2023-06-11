@@ -2,7 +2,6 @@ package org.tensorflow.codelabs.objectdetection.ui.profile.edit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityEditProfileBinding
 
 class EditProfileActivity : AppCompatActivity() {

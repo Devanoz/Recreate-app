@@ -41,6 +41,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoListActivity"
             android:exported="false" />
         <activity
