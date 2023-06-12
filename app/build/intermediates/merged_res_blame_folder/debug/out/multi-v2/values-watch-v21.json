@@ -4,7 +4,7 @@
             "outputFile": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LENOVO YOGA CARBON\\.gradle\\caches\\transforms-2\\files-2.1\\e542c530ebbf7855eb2e8184ee0b63d3\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\LENOVO YOGA CARBON\\.gradle\\caches\\transforms-3\\e2f242a980a8af54cfd492fb87e07b5d\\transformed\\appcompat-1.4.2\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

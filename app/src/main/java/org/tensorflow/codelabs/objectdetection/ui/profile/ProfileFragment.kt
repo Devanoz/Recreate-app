@@ -2,20 +2,19 @@ package org.tensorflow.codelabs.objectdetection.ui.profile
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.bumptech.glide.Glide
-import com.google.android.material.textfield.TextInputEditText
 import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.databinding.FragmentProfileBinding
 import org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity
-import org.w3c.dom.Text
+import org.tensorflow.codelabs.objectdetection.util.DateUtils
 
 class ProfileFragment : Fragment() {
 
@@ -52,13 +51,14 @@ class ProfileFragment : Fragment() {
         joinedAtTextViewSection = binding.tvCreatedAt
 
         viewModel.profileData.observe(viewLifecycleOwner) {
+            Log.d("myLog",it.createdAt)
             usernameTextView.text = it.username
             emailTextView.text = it.email
-            joinedAtTextView.text  = it.createdAt
+            joinedAtTextView.text  = DateUtils.formatDate(it.createdAt)
 
             usernameTextViewSection.text = it.username
             emailTextViewSection.text = it.email
-            joinedAtTextViewSection.text = it.createdAt
+            joinedAtTextViewSection.text = DateUtils.formatDate(it.createdAt)
 
             if(it.avatar!=null) {
                 Glide.with(this).load(it.avatar).into(binding.profileImageView)
@@ -77,5 +77,9 @@ class ProfileFragment : Fragment() {
         }
 
     }
+
+
+
+
 
 }

@@ -1,86 +1,91 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
-MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\d7a271a8f4af1430f144a7881f8fb511\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\978a31be7a0c5c8c4455578343e25078\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3d147e5f598e8d43a2283cd1bb88a4dc\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ee5b0ecf920e252e839052023c382869\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b5adf75fa020a44b1b090c709b51d70b\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:17:1-34:12
-MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\e7fc860dc307842a5bf4905654e84ae2\jetified-camera-view-1.2.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\f2ba57f0166207a0fe6908c8cebbc540\jetified-camera-lifecycle-1.2.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a93c5d8140bf3fbab0de6a6e8034e94a\jetified-camera-video-1.2.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3d510015cb2b4579b8ccc1d4987213d1\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\745359d31b83eae25b6c1fc9b17c961e\jetified-room-ktx-2.5.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\50d8718b4f1dee7cc71d5710d573378a\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ce098455c5cace792e66906c1b639e0d\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\eef30ddc4276f5732f21f50bbfb79510\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a8c0ac808e0814766535760cd47af624\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f10701d8eaeba6e896a625e1d908c5f\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\396905a7d13cea2ef15c5eddb6c3882a\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f15c1a1f5bba3cf137b16f19f6ef519\material-1.5.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\17875027bef39981c7a93d6d26cef98c\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\e542c530ebbf7855eb2e8184ee0b63d3\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a24322643f3295ef7c150c0f2158c5f4\jetified-glide-4.15.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ca4bf51c64efe0a270cf078fba1e2b00\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
-MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\0b2edbbcf14163eaa6ce011f45583fce\jetified-tensorflow-lite-task-vision-0.3.1\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1bd53eb57ebd9bd4897c5251b9d239a6\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\56f907b01c6e25aa1c829f05fb8b1861\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5e4b3cc4d6fc63283dab1f59eea1c2fc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b5213d8db0f676a3f9d6f48cd6033112\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3a6c181303f1fc63311f3a3ef45cc264\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\110327073d2bc216adc8204971f2c791\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b2c70c487e23e4883fef0b5760cd8c2f\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\66a525bf0bd88d6aed40ce135f890030\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\493344027bc0e0401def21da933a6324\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\80e985e315dc00e244a2b9bd024128d4\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ffec0a628e2bf22555c9e9a920adc69e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\815a8c65a87170ed2feb1b97fbc020de\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\79e44907af04aa12e922feba4bc049f7\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\9a0f39d2323e1319493a1d30c7cb6198\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1474282dbba8a09f766f4e1f1232ffd9\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3931233695fef0642459747fae9c1a90\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8b3e7c965bdceb13b60efd16b4da53bf\core-1.5.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\798e369a92669191115d6771ba91559a\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\77f1e6cd33f9f142461f4304a8759a7b\jetified-gifdecoder-4.15.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ca019ff924df8c5e7e061f8da7b4fca1\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8d0b3a2e259ef88665c193e0e832a1e7\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\9e9773d9b2a6c05d2136e28869b2e187\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5bc70c2bc9f12fec6c44335bf6ab02a0\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a18a874976ee7839b0b0298384ac4c2a\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1f1de9c7dfbd97ac927242867ef51cdc\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\4a395af2c81784d0f70ede123dde39dd\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\61b8291a63bdc9808197a203d29755bd\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\159ba28ee7d52ab93db9fe1955492c08\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3bba9669fad593fd1296721c81e4a677\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8681f920af10063fdd567cb509a1d9b0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8338dee44b36913e0a852782b0e1b639\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\42c9410959afc6d00ec7fcdfad6ec035\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c29194815bb4bdb349aa53b7a8a9f5a9\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\63f71a523f35a8d59250d4fe352093cb\jetified-tensorflow-lite-task-base-0.3.1\AndroidManifest.xml:2:1-6:12
-MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7b6f988718bb331238282933ca1f472b\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:2:1-5:12
-MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f1ef48bf3bd2200200a102bfb263c55\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3b1eeaf99a9a9e950db6392b357a6c6e\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9516acfaa1c65d1aefb703ae961d2e0a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d5883c4ded674eb326d3f1a13cf56cfc\transformed\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\df5928cc763602663216f8289ccdb6e9\transformed\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\31953789713b3e1397c5c717176cf779\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:17:1-34:12
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a3d945f38e224d70eb5ab7388587fd0f\transformed\jetified-camera-view-1.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\21f75bebd495b2ee4041a325b5804235\transformed\jetified-camera-lifecycle-1.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\44ebac87a5822a8eaa4ee1a6516b4a56\transformed\jetified-camera-video-1.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ec17f7e56552c895e558294882a4001\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\387e35fcc99959204032397b78852ba5\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b3af4b3a2e9ee2c6089471661f6f4899\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\67f04efdc6dd0760d775bbd8dd10e6b3\transformed\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d0fe4bbb3ab8b5099861fa39a15082f4\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16c0c80bb70e825d7fff522061cf627b\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\3ef7700bb0c25843efd4d9fc36db31cd\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\af286e647e2738fc029118c586bc880d\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d88be62a2c67ede11ab563a79ff1ebb1\transformed\jetified-lifecycle-runtime-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\176baf239e39d6594cd891dc0bf6225a\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ccc7634bd7005576da2ad21330bdf291\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2f242a980a8af54cfd492fb87e07b5d\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\84b78e6b480bee97ffa4bd84367d4a1e\transformed\jetified-glide-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\4fac4fbe762b6ac6fdaa619e3b512bda\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\896700e7be5f8c9d35b3d58b7b478722\transformed\jetified-tensorflow-lite-task-vision-0.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ce86affb7df87a182a3316973a5117c6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\3bde0472944f392cd0d2c39b5ff63500\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\32a27095f04d8d7ed9016e635c9b1c1c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\76e91205d3c4545eeba46521800da590\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1eb5df323e63ff879635ac2a5181a84d\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a8b3cf454c625ea2a02b38ec773b2a34\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1879acc49f03fbc3383ac08c5fb3c27d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\0daacdefbee9853686a7d939646295e0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\4003df75db03afaefe4da399fcbd6439\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\474feaa62cdad4432268c9ac5c9067e6\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d81ab46ff852b6c832400833f0f1951e\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5a223c10dac8032c17de2850925db8f8\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\6d95f768370e3961dd017c5e96b28c20\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9b11139ba77d5d95ccdf927f1432bc1f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\fb042d0dd0363b68f8c2e0d21bde74ec\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ac80065668ad1191cd83460e06f42d21\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5fd135428a80988800eae444d4bf6d56\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2e9a8007d85b30f58185ceeab9719a4\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\c4d094826b27459470302ad2509faa7d\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\199a8a597fdebe0b277abb7b8f2f95b6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7f43ee1120deee4a974581f7c6d6d896\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ea75aaa462a91d43e24a1380680482a\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\36c1f3db55d3186371f7495abe59cec0\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a3cd7b6d6632f4d1498e516357128ba4\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\78014b40ce3c0652d0dff6c15a215e4e\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d424138433faeb348fd26320d6212156\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\79527057a2d18937a08c9cd08df43619\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\930b4c270f50fac0a070571662a37833\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a8136d4e246f9fa0a8efbbd39c49bfde\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\08c9f4d8c538047f6a2feea96282037a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\115ad22ab37a4f5dafaf68c5e00de8cc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7d70b4f0e907b574293b166cd1be47de\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\da498ffbba19c2cc03d64fc89889ea07\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\063c95e74691aab43408e337df100ff4\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\57b4da10435648b8281c1eb876f37980\transformed\jetified-tensorflow-lite-task-base-0.3.1\AndroidManifest.xml:2:1-6:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\8859ebb95addb69d01886404488079f8\transformed\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\531f87e6327974fc353b1aa6f99d20c0\transformed\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16827385a61233b6ae6ea7677c6ed330\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
 	package
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:3:5-54
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:11-69
@@ -98,6 +103,8 @@ ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.INTERNET
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:9:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -108,8 +115,8 @@ ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:11:9-65
 queries
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:14:5-18:15
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:22:5-26:15
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:22:5-26:15
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:22:5-26:15
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:22:5-26:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:15:9-17:18
 action#android.media.action.IMAGE_CAPTURE
@@ -117,35 +124,41 @@ ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src
 	android:name
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:16:21-70
 application
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:20:5-67:19
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
-MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f15c1a1f5bba3cf137b16f19f6ef519\material-1.5.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f15c1a1f5bba3cf137b16f19f6ef519\material-1.5.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\17875027bef39981c7a93d6d26cef98c\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\17875027bef39981c7a93d6d26cef98c\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a24322643f3295ef7c150c0f2158c5f4\jetified-glide-4.15.1\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a24322643f3295ef7c150c0f2158c5f4\jetified-glide-4.15.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8b3e7c965bdceb13b60efd16b4da53bf\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8b3e7c965bdceb13b60efd16b4da53bf\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\77f1e6cd33f9f142461f4304a8759a7b\jetified-gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\77f1e6cd33f9f142461f4304a8759a7b\jetified-gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8d0b3a2e259ef88665c193e0e832a1e7\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8d0b3a2e259ef88665c193e0e832a1e7\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\63f71a523f35a8d59250d4fe352093cb\jetified-tensorflow-lite-task-base-0.3.1\AndroidManifest.xml:4:4-5:18
-MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\63f71a523f35a8d59250d4fe352093cb\jetified-tensorflow-lite-task-base-0.3.1\AndroidManifest.xml:4:4-5:18
-MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f1ef48bf3bd2200200a102bfb263c55\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f1ef48bf3bd2200200a102bfb263c55\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:10:5-20
-MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3b1eeaf99a9a9e950db6392b357a6c6e\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3b1eeaf99a9a9e950db6392b357a6c6e\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:20:5-73:19
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\176baf239e39d6594cd891dc0bf6225a\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\176baf239e39d6594cd891dc0bf6225a\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ccc7634bd7005576da2ad21330bdf291\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ccc7634bd7005576da2ad21330bdf291\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\84b78e6b480bee97ffa4bd84367d4a1e\transformed\jetified-glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\84b78e6b480bee97ffa4bd84367d4a1e\transformed\jetified-glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2e9a8007d85b30f58185ceeab9719a4\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2e9a8007d85b30f58185ceeab9719a4\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\c4d094826b27459470302ad2509faa7d\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\c4d094826b27459470302ad2509faa7d\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7f43ee1120deee4a974581f7c6d6d896\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7f43ee1120deee4a974581f7c6d6d896\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\57b4da10435648b8281c1eb876f37980\transformed\jetified-tensorflow-lite-task-base-0.3.1\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\57b4da10435648b8281c1eb876f37980\transformed\jetified-tensorflow-lite-task-base-0.3.1\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\531f87e6327974fc353b1aa6f99d20c0\transformed\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\531f87e6327974fc353b1aa6f99d20c0\transformed\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16827385a61233b6ae6ea7677c6ed330\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16827385a61233b6ae6ea7677c6ed330\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8b3e7c965bdceb13b60efd16b4da53bf\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2e9a8007d85b30f58185ceeab9719a4\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:25:9-35
 	android:label
@@ -158,208 +171,230 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CAR
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:26:9-40
+activity#org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.VideoDetailActivity
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:27:9-29:39
+	android:exported
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:28:13-72
+activity#org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.ArticleDetailActivity
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:30:9-32:39
+	android:exported
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:31:13-74
 activity#org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:27:9-29:40
-	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:29:13-37
-	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:28:13-64
-activity#org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoListActivity
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:30:9-32:40
-	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:31:13-69
-activity#org.tensorflow.codelabs.objectdetection.ui.recomendation.article.ArticleListActivity
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:34:13-73
-activity#org.tensorflow.codelabs.objectdetection.ui.register.RegisterActivity
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:34:13-64
+activity#org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoListActivity
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:37:13-57
-activity#org.tensorflow.codelabs.objectdetection.ui.login.LoginActivity
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:37:13-69
+activity#org.tensorflow.codelabs.objectdetection.ui.recomendation.article.ArticleListActivity
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:39:9-41:39
 	android:exported
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:40:13-51
-activity#org.tensorflow.codelabs.objectdetection.ui.detection.CameraPreview
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:40:13-73
+activity#org.tensorflow.codelabs.objectdetection.ui.register.RegisterActivity
 ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:exported
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:43:13-55
-activity#org.tensorflow.codelabs.objectdetection.MainActivity
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:45:9-53:20
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:43:13-57
+activity#org.tensorflow.codelabs.objectdetection.ui.login.LoginActivity
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:45:9-47:39
 	android:exported
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:46:13-41
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:46:13-51
+activity#org.tensorflow.codelabs.objectdetection.ui.detection.CameraPreview
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:49:13-55
+activity#org.tensorflow.codelabs.objectdetection.MainActivity
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:9-59:20
+	android:exported
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:52:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:48:13-52:29
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:54:13-58:29
 action#android.intent.action.MAIN
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:49:17-69
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:17-69
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:49:25-66
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:17-77
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:27-74
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:27-74
 activity#org.tensorflow.codelabs.objectdetection.ui.detection.CameraActivity
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:54:9-56:40
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:60:9-62:40
 	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:56:13-37
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:61:13-56
 provider#androidx.core.content.FileProvider
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:58:9-66:20
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:64:9-72:20
 	android:grantUriPermissions
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:62:13-47
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:68:13-47
 	android:authorities
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:60:13-87
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:66:13-87
 	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:61:13-37
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:59:13-62
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:65:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:63:13-65:54
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:69:13-71:54
 	android:resource
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:65:17-51
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:71:17-51
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:64:17-67
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:70:17-67
 uses-sdk
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\d7a271a8f4af1430f144a7881f8fb511\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\d7a271a8f4af1430f144a7881f8fb511\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\978a31be7a0c5c8c4455578343e25078\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\978a31be7a0c5c8c4455578343e25078\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3d147e5f598e8d43a2283cd1bb88a4dc\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3d147e5f598e8d43a2283cd1bb88a4dc\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ee5b0ecf920e252e839052023c382869\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ee5b0ecf920e252e839052023c382869\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b5adf75fa020a44b1b090c709b51d70b\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b5adf75fa020a44b1b090c709b51d70b\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\e7fc860dc307842a5bf4905654e84ae2\jetified-camera-view-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\e7fc860dc307842a5bf4905654e84ae2\jetified-camera-view-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\f2ba57f0166207a0fe6908c8cebbc540\jetified-camera-lifecycle-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\f2ba57f0166207a0fe6908c8cebbc540\jetified-camera-lifecycle-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a93c5d8140bf3fbab0de6a6e8034e94a\jetified-camera-video-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a93c5d8140bf3fbab0de6a6e8034e94a\jetified-camera-video-1.2.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3d510015cb2b4579b8ccc1d4987213d1\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3d510015cb2b4579b8ccc1d4987213d1\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\745359d31b83eae25b6c1fc9b17c961e\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\745359d31b83eae25b6c1fc9b17c961e\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\50d8718b4f1dee7cc71d5710d573378a\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\50d8718b4f1dee7cc71d5710d573378a\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ce098455c5cace792e66906c1b639e0d\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ce098455c5cace792e66906c1b639e0d\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\eef30ddc4276f5732f21f50bbfb79510\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\eef30ddc4276f5732f21f50bbfb79510\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a8c0ac808e0814766535760cd47af624\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a8c0ac808e0814766535760cd47af624\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f10701d8eaeba6e896a625e1d908c5f\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f10701d8eaeba6e896a625e1d908c5f\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\396905a7d13cea2ef15c5eddb6c3882a\sqlite-2.3.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\396905a7d13cea2ef15c5eddb6c3882a\sqlite-2.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f15c1a1f5bba3cf137b16f19f6ef519\material-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f15c1a1f5bba3cf137b16f19f6ef519\material-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\17875027bef39981c7a93d6d26cef98c\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\17875027bef39981c7a93d6d26cef98c\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\e542c530ebbf7855eb2e8184ee0b63d3\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\e542c530ebbf7855eb2e8184ee0b63d3\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a24322643f3295ef7c150c0f2158c5f4\jetified-glide-4.15.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a24322643f3295ef7c150c0f2158c5f4\jetified-glide-4.15.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ca4bf51c64efe0a270cf078fba1e2b00\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ca4bf51c64efe0a270cf078fba1e2b00\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\0b2edbbcf14163eaa6ce011f45583fce\jetified-tensorflow-lite-task-vision-0.3.1\AndroidManifest.xml:5:5-7:41
-MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\0b2edbbcf14163eaa6ce011f45583fce\jetified-tensorflow-lite-task-vision-0.3.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1bd53eb57ebd9bd4897c5251b9d239a6\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1bd53eb57ebd9bd4897c5251b9d239a6\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\56f907b01c6e25aa1c829f05fb8b1861\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\56f907b01c6e25aa1c829f05fb8b1861\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5e4b3cc4d6fc63283dab1f59eea1c2fc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5e4b3cc4d6fc63283dab1f59eea1c2fc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b5213d8db0f676a3f9d6f48cd6033112\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b5213d8db0f676a3f9d6f48cd6033112\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3a6c181303f1fc63311f3a3ef45cc264\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3a6c181303f1fc63311f3a3ef45cc264\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\110327073d2bc216adc8204971f2c791\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\110327073d2bc216adc8204971f2c791\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b2c70c487e23e4883fef0b5760cd8c2f\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\b2c70c487e23e4883fef0b5760cd8c2f\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\66a525bf0bd88d6aed40ce135f890030\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\66a525bf0bd88d6aed40ce135f890030\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\493344027bc0e0401def21da933a6324\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\493344027bc0e0401def21da933a6324\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\80e985e315dc00e244a2b9bd024128d4\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\80e985e315dc00e244a2b9bd024128d4\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ffec0a628e2bf22555c9e9a920adc69e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ffec0a628e2bf22555c9e9a920adc69e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\815a8c65a87170ed2feb1b97fbc020de\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\815a8c65a87170ed2feb1b97fbc020de\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\79e44907af04aa12e922feba4bc049f7\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\79e44907af04aa12e922feba4bc049f7\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\9a0f39d2323e1319493a1d30c7cb6198\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\9a0f39d2323e1319493a1d30c7cb6198\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1474282dbba8a09f766f4e1f1232ffd9\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1474282dbba8a09f766f4e1f1232ffd9\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3931233695fef0642459747fae9c1a90\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3931233695fef0642459747fae9c1a90\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8b3e7c965bdceb13b60efd16b4da53bf\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8b3e7c965bdceb13b60efd16b4da53bf\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\798e369a92669191115d6771ba91559a\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\798e369a92669191115d6771ba91559a\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\77f1e6cd33f9f142461f4304a8759a7b\jetified-gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\77f1e6cd33f9f142461f4304a8759a7b\jetified-gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ca019ff924df8c5e7e061f8da7b4fca1\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\ca019ff924df8c5e7e061f8da7b4fca1\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8d0b3a2e259ef88665c193e0e832a1e7\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8d0b3a2e259ef88665c193e0e832a1e7\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\9e9773d9b2a6c05d2136e28869b2e187\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\9e9773d9b2a6c05d2136e28869b2e187\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5bc70c2bc9f12fec6c44335bf6ab02a0\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5bc70c2bc9f12fec6c44335bf6ab02a0\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a18a874976ee7839b0b0298384ac4c2a\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\a18a874976ee7839b0b0298384ac4c2a\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1f1de9c7dfbd97ac927242867ef51cdc\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\1f1de9c7dfbd97ac927242867ef51cdc\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\4a395af2c81784d0f70ede123dde39dd\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\4a395af2c81784d0f70ede123dde39dd\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\61b8291a63bdc9808197a203d29755bd\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\61b8291a63bdc9808197a203d29755bd\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\159ba28ee7d52ab93db9fe1955492c08\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\159ba28ee7d52ab93db9fe1955492c08\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3bba9669fad593fd1296721c81e4a677\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3bba9669fad593fd1296721c81e4a677\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8681f920af10063fdd567cb509a1d9b0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8681f920af10063fdd567cb509a1d9b0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8338dee44b36913e0a852782b0e1b639\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\8338dee44b36913e0a852782b0e1b639\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\42c9410959afc6d00ec7fcdfad6ec035\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\42c9410959afc6d00ec7fcdfad6ec035\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c29194815bb4bdb349aa53b7a8a9f5a9\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c29194815bb4bdb349aa53b7a8a9f5a9\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7b6f988718bb331238282933ca1f472b\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:4:3-71
-MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7b6f988718bb331238282933ca1f472b\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:4:3-71
-MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f1ef48bf3bd2200200a102bfb263c55\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\5f1ef48bf3bd2200200a102bfb263c55\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:7:5-8:41
-MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3b1eeaf99a9a9e950db6392b357a6c6e\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\3b1eeaf99a9a9e950db6392b357a6c6e\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9516acfaa1c65d1aefb703ae961d2e0a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9516acfaa1c65d1aefb703ae961d2e0a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d5883c4ded674eb326d3f1a13cf56cfc\transformed\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d5883c4ded674eb326d3f1a13cf56cfc\transformed\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\df5928cc763602663216f8289ccdb6e9\transformed\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\df5928cc763602663216f8289ccdb6e9\transformed\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\31953789713b3e1397c5c717176cf779\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\31953789713b3e1397c5c717176cf779\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a3d945f38e224d70eb5ab7388587fd0f\transformed\jetified-camera-view-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a3d945f38e224d70eb5ab7388587fd0f\transformed\jetified-camera-view-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\21f75bebd495b2ee4041a325b5804235\transformed\jetified-camera-lifecycle-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\21f75bebd495b2ee4041a325b5804235\transformed\jetified-camera-lifecycle-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\44ebac87a5822a8eaa4ee1a6516b4a56\transformed\jetified-camera-video-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\44ebac87a5822a8eaa4ee1a6516b4a56\transformed\jetified-camera-video-1.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ec17f7e56552c895e558294882a4001\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ec17f7e56552c895e558294882a4001\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\387e35fcc99959204032397b78852ba5\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\387e35fcc99959204032397b78852ba5\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b3af4b3a2e9ee2c6089471661f6f4899\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b3af4b3a2e9ee2c6089471661f6f4899\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\67f04efdc6dd0760d775bbd8dd10e6b3\transformed\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\67f04efdc6dd0760d775bbd8dd10e6b3\transformed\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d0fe4bbb3ab8b5099861fa39a15082f4\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d0fe4bbb3ab8b5099861fa39a15082f4\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16c0c80bb70e825d7fff522061cf627b\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16c0c80bb70e825d7fff522061cf627b\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\3ef7700bb0c25843efd4d9fc36db31cd\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\3ef7700bb0c25843efd4d9fc36db31cd\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\af286e647e2738fc029118c586bc880d\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\af286e647e2738fc029118c586bc880d\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d88be62a2c67ede11ab563a79ff1ebb1\transformed\jetified-lifecycle-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d88be62a2c67ede11ab563a79ff1ebb1\transformed\jetified-lifecycle-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\176baf239e39d6594cd891dc0bf6225a\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\176baf239e39d6594cd891dc0bf6225a\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ccc7634bd7005576da2ad21330bdf291\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ccc7634bd7005576da2ad21330bdf291\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2f242a980a8af54cfd492fb87e07b5d\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2f242a980a8af54cfd492fb87e07b5d\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\84b78e6b480bee97ffa4bd84367d4a1e\transformed\jetified-glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\84b78e6b480bee97ffa4bd84367d4a1e\transformed\jetified-glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\4fac4fbe762b6ac6fdaa619e3b512bda\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\4fac4fbe762b6ac6fdaa619e3b512bda\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\896700e7be5f8c9d35b3d58b7b478722\transformed\jetified-tensorflow-lite-task-vision-0.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\896700e7be5f8c9d35b3d58b7b478722\transformed\jetified-tensorflow-lite-task-vision-0.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ce86affb7df87a182a3316973a5117c6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ce86affb7df87a182a3316973a5117c6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\3bde0472944f392cd0d2c39b5ff63500\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\3bde0472944f392cd0d2c39b5ff63500\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\32a27095f04d8d7ed9016e635c9b1c1c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\32a27095f04d8d7ed9016e635c9b1c1c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\76e91205d3c4545eeba46521800da590\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\76e91205d3c4545eeba46521800da590\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1eb5df323e63ff879635ac2a5181a84d\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1eb5df323e63ff879635ac2a5181a84d\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a8b3cf454c625ea2a02b38ec773b2a34\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a8b3cf454c625ea2a02b38ec773b2a34\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1879acc49f03fbc3383ac08c5fb3c27d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1879acc49f03fbc3383ac08c5fb3c27d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\0daacdefbee9853686a7d939646295e0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\0daacdefbee9853686a7d939646295e0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\4003df75db03afaefe4da399fcbd6439\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\4003df75db03afaefe4da399fcbd6439\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\474feaa62cdad4432268c9ac5c9067e6\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\474feaa62cdad4432268c9ac5c9067e6\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d81ab46ff852b6c832400833f0f1951e\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d81ab46ff852b6c832400833f0f1951e\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5a223c10dac8032c17de2850925db8f8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5a223c10dac8032c17de2850925db8f8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\6d95f768370e3961dd017c5e96b28c20\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\6d95f768370e3961dd017c5e96b28c20\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9b11139ba77d5d95ccdf927f1432bc1f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9b11139ba77d5d95ccdf927f1432bc1f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\fb042d0dd0363b68f8c2e0d21bde74ec\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\fb042d0dd0363b68f8c2e0d21bde74ec\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ac80065668ad1191cd83460e06f42d21\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\ac80065668ad1191cd83460e06f42d21\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5fd135428a80988800eae444d4bf6d56\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5fd135428a80988800eae444d4bf6d56\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2e9a8007d85b30f58185ceeab9719a4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\e2e9a8007d85b30f58185ceeab9719a4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\c4d094826b27459470302ad2509faa7d\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\c4d094826b27459470302ad2509faa7d\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\199a8a597fdebe0b277abb7b8f2f95b6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\199a8a597fdebe0b277abb7b8f2f95b6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7f43ee1120deee4a974581f7c6d6d896\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7f43ee1120deee4a974581f7c6d6d896\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ea75aaa462a91d43e24a1380680482a\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ea75aaa462a91d43e24a1380680482a\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\36c1f3db55d3186371f7495abe59cec0\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\36c1f3db55d3186371f7495abe59cec0\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a3cd7b6d6632f4d1498e516357128ba4\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a3cd7b6d6632f4d1498e516357128ba4\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\78014b40ce3c0652d0dff6c15a215e4e\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\78014b40ce3c0652d0dff6c15a215e4e\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d424138433faeb348fd26320d6212156\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d424138433faeb348fd26320d6212156\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\79527057a2d18937a08c9cd08df43619\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\79527057a2d18937a08c9cd08df43619\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\930b4c270f50fac0a070571662a37833\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\930b4c270f50fac0a070571662a37833\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a8136d4e246f9fa0a8efbbd39c49bfde\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a8136d4e246f9fa0a8efbbd39c49bfde\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\08c9f4d8c538047f6a2feea96282037a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\08c9f4d8c538047f6a2feea96282037a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\115ad22ab37a4f5dafaf68c5e00de8cc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\115ad22ab37a4f5dafaf68c5e00de8cc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7d70b4f0e907b574293b166cd1be47de\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\7d70b4f0e907b574293b166cd1be47de\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\da498ffbba19c2cc03d64fc89889ea07\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\da498ffbba19c2cc03d64fc89889ea07\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\063c95e74691aab43408e337df100ff4\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\063c95e74691aab43408e337df100ff4\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\8859ebb95addb69d01886404488079f8\transformed\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\8859ebb95addb69d01886404488079f8\transformed\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\531f87e6327974fc353b1aa6f99d20c0\transformed\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\531f87e6327974fc353b1aa6f99d20c0\transformed\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16827385a61233b6ae6ea7677c6ed330\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16827385a61233b6ae6ea7677c6ed330\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -372,48 +407,78 @@ INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\
 		MERGED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
-ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:23:9-25:18
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:23:9-25:18
 action#androidx.camera.extensions.action.VENDOR_ACTION
-ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:24:13-86
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:24:13-86
 	android:name
-		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:24:21-83
+		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:24:21-83
 uses-library#androidx.camera.extensions.impl
-ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:29:9-31:40
+ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:29:9-31:40
 	android:required
-		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:31:13-37
+		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\23884fcdf35562a5b4496320fb0b04ca\jetified-camera-extensions-1.2.2\AndroidManifest.xml:30:13-59
+		ADDED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:30:13-59
 service#androidx.camera.core.impl.MetadataHolderService
-ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:24:9-33:19
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:29:9-33:78
-MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c157bb224a33b3b9772fd22173e43b93\jetified-camera-core-1.2.2\AndroidManifest.xml:29:9-33:78
+ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:29:9-33:78
 	tools:node
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:29:13-31
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:29:13-31
 	android:enabled
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:26:13-36
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:26:13-36
 	android:exported
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:28:13-75
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:28:13-75
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:25:13-75
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:25:13-75
 meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
-ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:30:13-32:89
+ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:30:13-32:89
 	android:value
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:32:17-86
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\c1a8e9ce08b6e7e4f14924d7e9b22e99\jetified-camera-camera2-1.2.2\AndroidManifest.xml:31:17-103
+		ADDED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:31:17-103
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:28:13-60
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-2\files-2.1\7f27b9523a5421b5626f9693d6065c18\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e33786fcbfccf925d374e1dbea8e892\transformed\jetified-core-11.1.0\AndroidManifest.xml:10:22-76
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5bda2b266093233946b6119b6333b3e3\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-69:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
+IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE

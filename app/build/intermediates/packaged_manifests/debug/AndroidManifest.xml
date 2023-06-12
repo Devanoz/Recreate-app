@@ -26,6 +26,7 @@
         </intent>
     </queries>
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -41,6 +42,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.VideoDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.ArticleDetailActivity"
+            android:exported="true" />
+        <activity
             android:name="org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity"
             android:exported="false" />
         <activity
@@ -48,7 +55,7 @@
             android:exported="false" />
         <activity
             android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.article.ArticleListActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="org.tensorflow.codelabs.objectdetection.ui.register.RegisterActivity"
             android:exported="false" />
@@ -97,6 +104,18 @@
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"
             android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="org.tensorflow.codelabs.objectdetection.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 
 </manifest>

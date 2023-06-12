@@ -25,6 +25,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ui.recomendation.detail.VideoDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.recomendation.detail.ArticleDetailActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.profile.edit.EditProfileActivity"
             android:exported="false" />
         <activity
@@ -32,7 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".ui.recomendation.article.ArticleListActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.register.RegisterActivity"
             android:exported="false" />
