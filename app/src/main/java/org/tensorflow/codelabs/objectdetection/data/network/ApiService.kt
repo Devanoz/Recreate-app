@@ -16,8 +16,9 @@ import retrofit2.http.Query
 interface ApiService {
     @POST("api/auth/local/register")
     suspend fun registerUser(@Body registerModel: RegisterModel): Response<RegisterResponse>
+
     @POST("api/auth/local")
-    suspend fun login(@Body loginModel: LoginModel):  Response<LoginResponse>
+    suspend fun login(@Body loginModel: LoginModel): Response<LoginResponse>
 
     @GET("api/users/me?populate=*")
     suspend fun getProfileData(): Response<ProfileResponse>
@@ -26,5 +27,11 @@ interface ApiService {
     suspend fun getAllArticle(@Query("populate") populate: String = "*"): Response<ArticleResponse>
 
     @GET("api/videos")
-    suspend fun getAllVideo(@Query("populate") populate: String = "*") : Response<VideoResponse>
+    suspend fun getAllVideo(@Query("populate") populate: String = "*"): Response<VideoResponse>
+
+    @GET("api/videos")
+    suspend fun getAllVideoByLabels(@Query("populate") populate: String): Response<VideoResponse>
+
+    @GET("api/article")
+    suspend fun getAllArticleByLabels(@Query("populate") populate: String): Response<ArticleResponse>
 }

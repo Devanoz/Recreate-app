@@ -64,6 +64,6 @@
     <color name="md_theme_dark_scrim">#000000</color>
 
     <color name="white" >#FFFFFF</color>
-    <color name="primary_background">#408065</color>
+    <color name="primary_background">#FFFFF6</color>
     <color name="yellow_tertiary">#FBFFDC</color>
 </resources>
