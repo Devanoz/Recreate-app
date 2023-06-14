@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.progressindicator.CircularProgressIndicator;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -36,16 +37,20 @@ public final class ActivityCameraResultBinding implements ViewBinding {
   @NonNull
   public final RecyclerView labelRv;
 
+  @NonNull
+  public final CircularProgressIndicator progressBar;
+
   private ActivityCameraResultBinding(@NonNull LinearLayout rootView,
       @NonNull CardView cardViewArticle, @NonNull CardView cardViewVideo,
-      @NonNull FrameLayout frameLayout, @NonNull ImageView imageView,
-      @NonNull RecyclerView labelRv) {
+      @NonNull FrameLayout frameLayout, @NonNull ImageView imageView, @NonNull RecyclerView labelRv,
+      @NonNull CircularProgressIndicator progressBar) {
     this.rootView = rootView;
     this.cardViewArticle = cardViewArticle;
     this.cardViewVideo = cardViewVideo;
     this.frameLayout = frameLayout;
     this.imageView = imageView;
     this.labelRv = labelRv;
+    this.progressBar = progressBar;
   }
 
   @Override
@@ -105,8 +110,14 @@ public final class ActivityCameraResultBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progress_bar;
+      CircularProgressIndicator progressBar = rootView.findViewById(id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       return new ActivityCameraResultBinding((LinearLayout) rootView, cardViewArticle,
-          cardViewVideo, frameLayout, imageView, labelRv);
+          cardViewVideo, frameLayout, imageView, labelRv, progressBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

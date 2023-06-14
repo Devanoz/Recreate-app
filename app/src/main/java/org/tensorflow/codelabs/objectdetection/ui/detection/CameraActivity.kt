@@ -92,6 +92,8 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
             startActivity(Intent(this@CameraActivity,VideoListActivity::class.java))
         }
 
+        binding.progressBar.visibility = View.VISIBLE
+
         val imageUri = Uri.parse(uri)
         val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUri)
         val rotatedBitmap = rotateImage(bitmap,90f)
@@ -179,6 +181,7 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
             binding.labelRv.apply {
                 layoutManager = LinearLayoutManager(this@CameraActivity,LinearLayoutManager.HORIZONTAL,false)
                 adapter = LabelAdapter(labels)
+                binding.progressBar.visibility = View.INVISIBLE
             }
         }
     }
