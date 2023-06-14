@@ -4,20 +4,42 @@ package org.tensorflow.codelabs.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import org.tensorflow.codelabs.objectdetection.R;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final ScrollView rootView;
 
-  private FragmentHomeBinding(@NonNull ScrollView rootView) {
+  @NonNull
+  public final CardView articleCardView;
+
+  @NonNull
+  public final LinearLayout middleSection;
+
+  @NonNull
+  public final ShapeableImageView shapeableImageView;
+
+  @NonNull
+  public final CardView videoCardView;
+
+  private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull CardView articleCardView,
+      @NonNull LinearLayout middleSection, @NonNull ShapeableImageView shapeableImageView,
+      @NonNull CardView videoCardView) {
     this.rootView = rootView;
+    this.articleCardView = articleCardView;
+    this.middleSection = middleSection;
+    this.shapeableImageView = shapeableImageView;
+    this.videoCardView = videoCardView;
   }
 
   @Override
@@ -43,10 +65,38 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.article_cardView;
+      CardView articleCardView = rootView.findViewById(id);
+      if (articleCardView == null) {
+        break missingId;
+      }
 
-    return new FragmentHomeBinding((ScrollView) rootView);
+      id = R.id.middle_section;
+      LinearLayout middleSection = rootView.findViewById(id);
+      if (middleSection == null) {
+        break missingId;
+      }
+
+      id = R.id.shapeableImageView;
+      ShapeableImageView shapeableImageView = rootView.findViewById(id);
+      if (shapeableImageView == null) {
+        break missingId;
+      }
+
+      id = R.id.video_cardView;
+      CardView videoCardView = rootView.findViewById(id);
+      if (videoCardView == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ScrollView) rootView, articleCardView, middleSection,
+          shapeableImageView, videoCardView);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
