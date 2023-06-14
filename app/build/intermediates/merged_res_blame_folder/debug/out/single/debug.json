@@ -100,6 +100,10 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\camera.png"
     },
     {
+        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_video_card_item.xml.flat",
+        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\video_card_item.xml"
+    },
+    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\xml\\file_paths.xml"
     },

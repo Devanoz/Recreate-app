@@ -13,4 +13,6 @@ class RecomendationRepository(private val context: Context) {
     private val client = ApiConfig.getApiServiceWithToken(token)
 
     suspend fun getAllArticleRecomendation() = client.getAllArticle()
+
+    suspend fun getAllVideoRecomendation() = client.getAllVideo()
 }

@@ -6,14 +6,10 @@ import androidx.activity.OnBackPressedCallback
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoDetailBinding
+import org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoAdapter
 
 class VideoDetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityVideoDetailBinding
-
-    private var isFullScreen = false
-
-    private lateinit var youTubePlayer: YouTubePlayer
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,8 +23,10 @@ class VideoDetailActivity : AppCompatActivity() {
         youtubePlayerView.addYouTubePlayerListener(object: AbstractYouTubePlayerListener() {
 
             override fun onReady(youTubePlayer: YouTubePlayer) {
-                val videoId = "H1W1N7AZcHs"
-                youTubePlayer.loadVideo(videoId, 0F);
+                intent.getStringExtra(VideoAdapter.VIDEO_ID)?.let { videoId ->
+                    youTubePlayer.loadVideo(videoId, 0F);
+                }
+
             }
         })
     }

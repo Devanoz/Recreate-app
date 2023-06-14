@@ -18,6 +18,8 @@ org/tensorflow/codelabs/objectdetection/databinding/ActivityMain2Binding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityMain2Binding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityVideoDetailBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoDetailBinding
+org/tensorflow/codelabs/objectdetection/databinding/VideoCardItemBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.VideoCardItemBinding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityEditProfileBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityEditProfileBinding
 org/tensorflow/codelabs/objectdetection/databinding/LabelItemBinding.java

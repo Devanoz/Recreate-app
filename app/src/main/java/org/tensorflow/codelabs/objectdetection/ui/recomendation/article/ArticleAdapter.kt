@@ -11,7 +11,7 @@ import org.tensorflow.codelabs.objectdetection.databinding.ArticleCardItemBindin
 import org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.ArticleDetailActivity
 import org.tensorflow.codelabs.objectdetection.util.DateUtils
 
-class ArticleAdapter(private val articleList: List<ArticleItem>,private val context: Context) :
+class ArticleAdapter(private val articleList: List<ArticleItem>, private val context: Context) :
     RecyclerView.Adapter<ArticleAdapter.ViewHolder>() {
 
     inner class ViewHolder(private val binding: ArticleCardItemBinding) :
@@ -20,9 +20,10 @@ class ArticleAdapter(private val articleList: List<ArticleItem>,private val cont
             binding.apply {
                 tvTitle.text = article.attributes.title
                 tvDateCreated.text = DateUtils.formatDate(article.attributes.createdAt)
-                Glide.with(context).load(article.attributes.image.data.attributes.formats.thumbnail.url).into(binding.imvThumbnail)
+                val thumbnailUrl = article.attributes.image.data.attributes.url
+                Glide.with(context).load(thumbnailUrl).into(binding.imvThumbnail)
                 root.setOnClickListener {
-                    val intent = Intent(context,ArticleDetailActivity::class.java)
+                    val intent = Intent(context, ArticleDetailActivity::class.java)
                     intent.putExtra(ARTICLE_URL,article.attributes.link)
                     context.startActivity(intent)
                 }

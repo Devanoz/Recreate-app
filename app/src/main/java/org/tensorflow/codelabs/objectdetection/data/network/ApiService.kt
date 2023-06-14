@@ -6,6 +6,7 @@ import org.tensorflow.codelabs.objectdetection.data.network.pojo.article.Article
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.login.LoginResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.ProfileResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.register.RegisterResponse
+import org.tensorflow.codelabs.objectdetection.data.network.pojo.video.VideoResponse
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -23,4 +24,7 @@ interface ApiService {
 
     @GET("api/articles")
     suspend fun getAllArticle(@Query("populate") populate: String = "*"): Response<ArticleResponse>
+
+    @GET("api/videos")
+    suspend fun getAllVideo(@Query("populate") populate: String = "*") : Response<VideoResponse>
 }

@@ -2890,6 +2890,7 @@ id right_side
 id rounded
 id row_index_key
 id rv_article
+id rv_video
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3227,6 +3228,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout video_card_item
 menu bottom_nav_menu
 menu example_menu
 menu example_menu2
