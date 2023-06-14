@@ -1,7 +1,9 @@
 package org.tensorflow.codelabs.objectdetection.ui.recomendation.article
 
+import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,6 +29,10 @@ class ArticleListActivity : AppCompatActivity() {
 
         viewModel.articleList.observe(this) {
             recyclerViewArticle.adapter = ArticleAdapter(it,this@ArticleListActivity)
+        }
+
+        viewModel.isProgressBarShowing.observe(this) {isShowing ->
+            binding.progressBar.visibility = if(isShowing) View.VISIBLE else View.INVISIBLE
         }
     }
 }

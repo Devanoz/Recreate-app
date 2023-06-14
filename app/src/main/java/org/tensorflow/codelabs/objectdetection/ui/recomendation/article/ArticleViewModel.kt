@@ -17,7 +17,11 @@ class ArticleViewModel(private val recomendationRepository: RecomendationReposit
     private val _articleList = MutableLiveData<List<ArticleItem>>()
     val articleList: LiveData<List<ArticleItem>> get() = _articleList
 
+    private val _isProgressbarShowing = MutableLiveData(false)
+    val isProgressBarShowing: LiveData<Boolean> get() = _isProgressbarShowing
+
     fun getAllArticle() {
+        _isProgressbarShowing.value = true
         viewModelScope.launch {
             try {
                 val response  = recomendationRepository.getAllArticleRecomendation()
@@ -26,12 +30,15 @@ class ArticleViewModel(private val recomendationRepository: RecomendationReposit
                     if(articleListValue != null) {
                         _articleList.value = articleListValue!!
                     }
+                    _isProgressbarShowing.value = false
                     Log.d("dataArticle",articleList.toString())
                 }else {
                     Log.d("dataArticle","response is not success")
+                    _isProgressbarShowing.value = false
                 }
             }catch (e: Exception) {
                 Log.d("error","error")
+                _isProgressbarShowing.value = false
             }
         }
     }

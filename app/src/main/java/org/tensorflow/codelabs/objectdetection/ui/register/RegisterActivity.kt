@@ -66,9 +66,9 @@ class RegisterActivity : AppCompatActivity() {
         val repeatPassword = repeatPasswordInput.text.toString()
         if( (password == repeatPassword) && (isValidEmail(emailInput.text.toString())) ) {
             viewModel.register(
-                username = usernameInput.text.toString(),
-                email = emailInput.text.toString(),
-                password = passwordInput.toString()
+                username = usernameInput.text.toString().trim(),
+                email = emailInput.text.toString().trim(),
+                password = passwordInput.text.toString().trim()
             )
         }
     }

@@ -2874,6 +2874,7 @@ id postLayout
 id profile_imageView
 id profile_menu
 id progress
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio

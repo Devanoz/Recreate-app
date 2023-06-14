@@ -2,6 +2,7 @@ package org.tensorflow.codelabs.objectdetection.ui.recomendation.video
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoListBinding
@@ -23,6 +24,10 @@ class VideoListActivity : AppCompatActivity() {
 
         viewModel.videoList.observe(this) {
             recyclerViewVideo.adapter = VideoAdapter(it,this@VideoListActivity)
+        }
+
+        viewModel.isProgressBarShowing.observe(this) {isShowing ->
+            binding.progressBar.visibility = if(isShowing) View.VISIBLE else View.INVISIBLE
         }
     }
 }
