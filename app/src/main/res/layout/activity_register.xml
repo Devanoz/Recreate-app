@@ -103,7 +103,6 @@
             android:inputType="textPassword"
             android:textColor="@color/md_theme_light_onPrimary"
             android:background="@drawable/login_textfield_background" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -132,7 +131,6 @@
             android:background="@drawable/login_textfield_background"
             android:inputType="textPassword"
             android:textColor="@color/md_theme_light_onPrimary" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton

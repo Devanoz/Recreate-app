@@ -4,7 +4,7 @@ package org.tensorflow.codelabs.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -14,15 +14,15 @@ import org.tensorflow.codelabs.objectdetection.R;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView) {
+  private FragmentHomeBinding(@NonNull ScrollView rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -47,6 +47,6 @@ public final class FragmentHomeBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new FragmentHomeBinding((FrameLayout) rootView);
+    return new FragmentHomeBinding((ScrollView) rootView);
   }
 }
