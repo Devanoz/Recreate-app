@@ -74,5 +74,10 @@
     <style name="TextAppearance.TextColor.Yellow" parent="AppTheme">
         <item name="android:textColor">@color/yellow_tertiary</item>
     </style>
+    
+    <style name="AppTheme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
 
 </resources>

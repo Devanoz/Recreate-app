@@ -3436,6 +3436,7 @@ style App_Fab_Custom
 style App_Imageview_Rounded
 style App_Imgeview_Rounded_10
 style AppTheme
+style AppTheme_App_Starting
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

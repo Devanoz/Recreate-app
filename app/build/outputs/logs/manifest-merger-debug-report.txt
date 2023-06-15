@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9516acfaa1c65d1aefb703ae961d2e0a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.3.0-rc02] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d5883c4ded674eb326d3f1a13cf56cfc\transformed\jetified-fragment-ktx-1.3.0-rc02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\df5928cc763602663216f8289ccdb6e9\transformed\jetified-activity-ktx-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
@@ -16,6 +16,7 @@ MERGED from [androidx.camera:camera-video:1.2.2] C:\Users\LENOVO YOGA CARBON\.gr
 MERGED from [androidx.camera:camera-core:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5d52cd3353057dffa50810aa32034b0e\transformed\jetified-camera-core-1.2.2\AndroidManifest.xml:17:1-36:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ec17f7e56552c895e558294882a4001\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\387e35fcc99959204032397b78852ba5\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a0d1972ebea9df5c8f4c4dc6535be765\transformed\jetified-core-splashscreen-1.0.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b3af4b3a2e9ee2c6089471661f6f4899\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\67f04efdc6dd0760d775bbd8dd10e6b3\transformed\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\d0fe4bbb3ab8b5099861fa39a15082f4\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0-rc01\AndroidManifest.xml:17:1-24:12
@@ -72,20 +73,20 @@ MERGED from [org.tensorflow:tensorflow-lite-task-base:0.3.1] C:\Users\LENOVO YOG
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.3.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\8859ebb95addb69d01886404488079f8\transformed\jetified-tensorflow-lite-support-api-0.3.1\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite-api:2.7.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\531f87e6327974fc353b1aa6f99d20c0\transformed\jetified-tensorflow-lite-api-2.7.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\16827385a61233b6ae6ea7677c6ed330\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
 	package
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:3:5-54
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12
 		INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:11-69
@@ -124,7 +125,7 @@ ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src
 	android:name
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:16:21-70
 application
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:20:5-73:19
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:20:5-74:19
 MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
 MERGED from [androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:28:5-32:19
 MERGED from [androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:23:5-34:19
@@ -220,43 +221,45 @@ ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src
 	android:name
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:49:13-55
 activity#org.tensorflow.codelabs.objectdetection.MainActivity
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:9-59:20
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:9-60:20
 	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:54:13-36
+	android:theme
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:53:13-57
 	android:name
 		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:52:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:54:13-58:29
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:17-69
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:25-66
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:58:27-74
 activity#org.tensorflow.codelabs.objectdetection.ui.detection.CameraActivity
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:60:9-62:40
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:61:9-63:40
 	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:62:13-37
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:62:13-56
 provider#androidx.core.content.FileProvider
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:64:9-72:20
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:65:9-73:20
 	android:grantUriPermissions
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:68:13-47
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:69:13-47
 	android:authorities
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:66:13-87
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:67:13-87
 	android:exported
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:67:13-37
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:65:13-62
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:66:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:69:13-71:54
+ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:70:13-72:54
 	android:resource
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:71:17-51
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:72:17-51
 	android:name
-		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:70:17-67
+		ADDED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:71:17-67
 uses-sdk
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
@@ -285,6 +288,8 @@ MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOG
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\1ec17f7e56552c895e558294882a4001\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\387e35fcc99959204032397b78852ba5\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\387e35fcc99959204032397b78852ba5\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a0d1972ebea9df5c8f4c4dc6535be765\transformed\jetified-core-splashscreen-1.0.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\a0d1972ebea9df5c8f4c4dc6535be765\transformed\jetified-core-splashscreen-1.0.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b3af4b3a2e9ee2c6089471661f6f4899\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b3af4b3a2e9ee2c6089471661f6f4899\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\67f04efdc6dd0760d775bbd8dd10e6b3\transformed\jetified-savedstate-ktx-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
@@ -479,6 +484,6 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CAR
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-75:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
+IMPLIED from E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:2:1-76:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
