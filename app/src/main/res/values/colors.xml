@@ -66,4 +66,5 @@
     <color name="white" >#FFFFFF</color>
     <color name="primary_background">#FFFFF6</color>
     <color name="yellow_tertiary">#FBFFDC</color>
+    <color  name="green_onCard">#68B984</color>
 </resources>

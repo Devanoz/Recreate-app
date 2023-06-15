@@ -25,29 +25,56 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final CardView articleCardView;
 
   @NonNull
+  public final CardView mainCardView;
+
+  @NonNull
   public final LinearLayout middleSection;
 
   @NonNull
-  public final ShapeableImageView shapeableImageView;
+  public final ShapeableImageView profileImage;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final TextView textView7;
 
   @NonNull
   public final TextView tvArticle;
 
   @NonNull
+  public final TextView tvNumDetection;
+
+  @NonNull
+  public final TextView tvUsername;
+
+  @NonNull
   public final TextView tvVideo;
+
+  @NonNull
+  public final TextView tvWelcome;
 
   @NonNull
   public final CardView videoCardView;
 
   private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull CardView articleCardView,
-      @NonNull LinearLayout middleSection, @NonNull ShapeableImageView shapeableImageView,
-      @NonNull TextView tvArticle, @NonNull TextView tvVideo, @NonNull CardView videoCardView) {
+      @NonNull CardView mainCardView, @NonNull LinearLayout middleSection,
+      @NonNull ShapeableImageView profileImage, @NonNull TextView textView2,
+      @NonNull TextView textView7, @NonNull TextView tvArticle, @NonNull TextView tvNumDetection,
+      @NonNull TextView tvUsername, @NonNull TextView tvVideo, @NonNull TextView tvWelcome,
+      @NonNull CardView videoCardView) {
     this.rootView = rootView;
     this.articleCardView = articleCardView;
+    this.mainCardView = mainCardView;
     this.middleSection = middleSection;
-    this.shapeableImageView = shapeableImageView;
+    this.profileImage = profileImage;
+    this.textView2 = textView2;
+    this.textView7 = textView7;
     this.tvArticle = tvArticle;
+    this.tvNumDetection = tvNumDetection;
+    this.tvUsername = tvUsername;
     this.tvVideo = tvVideo;
+    this.tvWelcome = tvWelcome;
     this.videoCardView = videoCardView;
   }
 
@@ -84,15 +111,33 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.main_cardView;
+      CardView mainCardView = rootView.findViewById(id);
+      if (mainCardView == null) {
+        break missingId;
+      }
+
       id = R.id.middle_section;
       LinearLayout middleSection = rootView.findViewById(id);
       if (middleSection == null) {
         break missingId;
       }
 
-      id = R.id.shapeableImageView;
-      ShapeableImageView shapeableImageView = rootView.findViewById(id);
-      if (shapeableImageView == null) {
+      id = R.id.profile_image;
+      ShapeableImageView profileImage = rootView.findViewById(id);
+      if (profileImage == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = rootView.findViewById(id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = rootView.findViewById(id);
+      if (textView7 == null) {
         break missingId;
       }
 
@@ -102,9 +147,27 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_num_detection;
+      TextView tvNumDetection = rootView.findViewById(id);
+      if (tvNumDetection == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_username;
+      TextView tvUsername = rootView.findViewById(id);
+      if (tvUsername == null) {
+        break missingId;
+      }
+
       id = R.id.tv_video;
       TextView tvVideo = rootView.findViewById(id);
       if (tvVideo == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_welcome;
+      TextView tvWelcome = rootView.findViewById(id);
+      if (tvWelcome == null) {
         break missingId;
       }
 
@@ -114,8 +177,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ScrollView) rootView, articleCardView, middleSection,
-          shapeableImageView, tvArticle, tvVideo, videoCardView);
+      return new FragmentHomeBinding((ScrollView) rootView, articleCardView, mainCardView,
+          middleSection, profileImage, textView2, textView7, tvArticle, tvNumDetection, tvUsername,
+          tvVideo, tvWelcome, videoCardView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
