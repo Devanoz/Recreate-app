@@ -20,25 +20,45 @@ class ArticleViewModel(private val recomendationRepository: RecomendationReposit
     private val _isProgressbarShowing = MutableLiveData(false)
     val isProgressBarShowing: LiveData<Boolean> get() = _isProgressbarShowing
 
-    fun getAllArticle() {
+//    fun getAllArticle() {
+//        _isProgressbarShowing.value = true
+//        viewModelScope.launch {
+//            try {
+//                val response  = recomendationRepository.getAllArticleRecomendation()
+//                if(response.isSuccessful) {
+//                    val articleListValue = response.body()?.data
+//                    if(articleListValue != null) {
+//                        _articleList.value = articleListValue!!
+//                    }
+//                    _isProgressbarShowing.value = false
+//                    Log.d("dataArticle",articleList.toString())
+//                }else {
+//                    Log.d("dataArticle","response is not success")
+//                    _isProgressbarShowing.value = false
+//                }
+//            }catch (e: Exception) {
+//                Log.d("error","error")
+//                _isProgressbarShowing.value = false
+//            }
+//        }
+//    }
+
+    fun getAllArticleByLabels(labels: List<String>) {
         _isProgressbarShowing.value = true
         viewModelScope.launch {
             try {
-                val response  = recomendationRepository.getAllArticleRecomendation()
+                val response = recomendationRepository.getAllArticleRecomendationByLabels(labels)
                 if(response.isSuccessful) {
                     val articleListValue = response.body()?.data
                     if(articleListValue != null) {
                         _articleList.value = articleListValue!!
                     }
                     _isProgressbarShowing.value = false
-                    Log.d("dataArticle",articleList.toString())
                 }else {
-                    Log.d("dataArticle","response is not success")
                     _isProgressbarShowing.value = false
                 }
             }catch (e: Exception) {
                 Log.d("error","error")
-                _isProgressbarShowing.value = false
             }
         }
     }

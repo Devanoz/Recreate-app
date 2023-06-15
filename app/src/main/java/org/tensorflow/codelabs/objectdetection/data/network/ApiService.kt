@@ -12,6 +12,7 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Query
+import retrofit2.http.QueryMap
 
 interface ApiService {
 
@@ -30,15 +31,13 @@ interface ApiService {
     @GET("api/videos")
     suspend fun getAllVideo(@Query("populate") populate: String = "*"): Response<VideoResponse>
 
-    @GET("api/videos")
+    @GET("api/videos?populate=*")
     suspend fun getAllVideoByLabels(
-        @Query("populate") populate: String,
-        @Query("filters[labels][\$contains]") vararg label: String
+        @QueryMap  queryMap: Map<String,String>,
     ): Response<VideoResponse>
 
-    @GET("api/article")
+    @GET("api/articles?populate=*")
     suspend fun getAllArticleByLabels(
-        @Query("populate") populate: String,
-        @Query("filters[labels][\$contains]") vararg label: String
+        @QueryMap queryMap: Map<String,String>
     ): Response<ArticleResponse>
 }

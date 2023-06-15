@@ -20,24 +20,44 @@ class VideoViewModel(private val recomendationRepository: RecomendationRepositor
     private val _isProgressbarShowing = MutableLiveData(false)
     val isProgressBarShowing: LiveData<Boolean> get() = _isProgressbarShowing
 
-    fun getAllVideo() {
+//    fun getAllVideo() {
+//        _isProgressbarShowing.value = true
+//        viewModelScope.launch {
+//            try {
+//                val response  = recomendationRepository.getAllVideoRecomendation()
+//                if(response.isSuccessful) {
+//                    val videoListValue = response.body()?.data
+//                    if(videoListValue!=null) {
+//                        _videoList.value = videoListValue!!
+//                    }
+//                    _isProgressbarShowing.value = false
+//                }else {
+//                    Log.d("videoList","response is not success")
+//                    _isProgressbarShowing.value = false
+//                }
+//            }catch (e: Exception) {
+//                Log.d("error","error")
+//                _isProgressbarShowing.value = false
+//            }
+//        }
+//    }
+
+    fun getAllVideoByLabels(labels: List<String>) {
         _isProgressbarShowing.value = true
         viewModelScope.launch {
             try {
-                val response  = recomendationRepository.getAllVideoRecomendation()
+                val response = recomendationRepository.getAllVideoRecomendationByLabels(labels)
                 if(response.isSuccessful) {
                     val videoListValue = response.body()?.data
-                    if(videoListValue!=null) {
+                    if(videoListValue != null) {
                         _videoList.value = videoListValue!!
                     }
                     _isProgressbarShowing.value = false
                 }else {
-                    Log.d("videoList","response is not success")
                     _isProgressbarShowing.value = false
                 }
             }catch (e: Exception) {
                 Log.d("error","error")
-                _isProgressbarShowing.value = false
             }
         }
     }

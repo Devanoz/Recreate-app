@@ -45,6 +45,7 @@ import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.math.max
 import kotlin.math.min
 
@@ -53,6 +54,7 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
         const val TAG = "TFLite - ODT"
         const val REQUEST_IMAGE_CAPTURE: Int = 1
         private const val MAX_FONT_SIZE = 96F
+        const val LABELS = "labels"
     }
 
     private lateinit var captureImageFab: Button
@@ -64,6 +66,7 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var currentPhotoPath: String
 
     private lateinit var binding: ActivityCameraResultBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -84,13 +87,6 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
 //        imgSampleTwo.setOnClickListener(this)
 //        imgSampleThree.setOnClickListener(this)
 
-        binding.cardViewArticle.setOnClickListener {
-            startActivity(Intent(this@CameraActivity,ArticleListActivity::class.java))
-        }
-
-        binding.cardViewVideo.setOnClickListener {
-            startActivity(Intent(this@CameraActivity,VideoListActivity::class.java))
-        }
 
         binding.progressBar.visibility = View.VISIBLE
 
@@ -182,6 +178,18 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
                 layoutManager = LinearLayoutManager(this@CameraActivity,LinearLayoutManager.HORIZONTAL,false)
                 adapter = LabelAdapter(labels)
                 binding.progressBar.visibility = View.INVISIBLE
+            }
+            binding.cardViewVideo.setOnClickListener {
+                val intent = Intent(this@CameraActivity,VideoListActivity::class.java).apply {
+                    putStringArrayListExtra(LABELS, ArrayList(labels))
+                }
+                startActivity(intent)
+            }
+            binding.cardViewArticle.setOnClickListener {
+                val intent = Intent(this@CameraActivity,ArticleListActivity::class.java).apply {
+                    putStringArrayListExtra(LABELS, ArrayList(labels))
+                }
+                startActivity(intent)
             }
         }
     }

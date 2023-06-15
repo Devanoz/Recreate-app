@@ -81,7 +81,6 @@
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="centerCrop"
                     app:srcCompat="@drawable/article_ilustration"
                     />
             </androidx.cardview.widget.CardView>
@@ -108,7 +107,6 @@
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="centerCrop"
                     app:srcCompat="@drawable/video_illustration" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>

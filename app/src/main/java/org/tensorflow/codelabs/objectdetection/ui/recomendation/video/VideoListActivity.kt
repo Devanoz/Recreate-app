@@ -6,6 +6,7 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoListBinding
+import org.tensorflow.codelabs.objectdetection.ui.detection.CameraActivity
 
 class VideoListActivity : AppCompatActivity() {
     private lateinit var binding: ActivityVideoListBinding
@@ -15,8 +16,6 @@ class VideoListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityVideoListBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        viewModel.getAllVideo()
 
         val recyclerViewVideo = binding.rvVideo
 
@@ -28,6 +27,10 @@ class VideoListActivity : AppCompatActivity() {
 
         viewModel.isProgressBarShowing.observe(this) {isShowing ->
             binding.progressBar.visibility = if(isShowing) View.VISIBLE else View.INVISIBLE
+        }
+
+        intent.getStringArrayListExtra(CameraActivity.LABELS)?.let { listofLabels ->
+            viewModel.getAllVideoByLabels(listofLabels)
         }
     }
 }
