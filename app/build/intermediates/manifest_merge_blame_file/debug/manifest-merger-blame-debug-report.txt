@@ -68,151 +68,150 @@
 40-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:24:9-54
 41        android:supportsRtl="true"
 41-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:25:9-35
-42        android:testOnly="true"
-43        android:theme="@style/AppTheme" >
-43-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:26:9-40
-44        <activity
-44-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:27:9-29:39
-45            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.VideoDetailActivity"
-45-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:28:13-72
-46            android:exported="true" />
-46-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:29:13-36
-47        <activity
-47-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:30:9-32:39
-48            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.ArticleDetailActivity"
-48-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:31:13-74
-49            android:exported="true" />
-49-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:32:13-36
-50        <activity
-50-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:33:9-35:40
-51            android:name="org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity"
-51-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:34:13-64
-52            android:exported="false" />
-52-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:35:13-37
-53        <activity
-53-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:36:9-38:40
-54            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoListActivity"
-54-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:37:13-69
-55            android:exported="false" />
-55-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:38:13-37
-56        <activity
-56-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:39:9-41:39
-57            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.article.ArticleListActivity"
-57-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:40:13-73
-58            android:exported="true" />
-58-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:41:13-36
-59        <activity
-59-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:42:9-44:40
-60            android:name="org.tensorflow.codelabs.objectdetection.ui.register.RegisterActivity"
-60-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:43:13-57
-61            android:exported="false" />
-61-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:44:13-37
-62        <activity
-62-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:45:9-47:39
-63            android:name="org.tensorflow.codelabs.objectdetection.ui.login.LoginActivity"
-63-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:46:13-51
-64            android:exported="true" />
-64-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:47:13-36
-65        <activity
-65-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:48:9-50:40
-66            android:name="org.tensorflow.codelabs.objectdetection.ui.detection.CameraPreview"
-66-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:49:13-55
-67            android:exported="false" />
-67-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:50:13-37
-68        <activity
-68-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:9-59:20
-69            android:name="org.tensorflow.codelabs.objectdetection.MainActivity"
-69-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:52:13-41
-70            android:exported="true" >
-70-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:53:13-36
-71            <intent-filter>
-71-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:54:13-58:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:17-69
-72-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:25-66
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-74-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:17-77
-74-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:27-74
-75            </intent-filter>
-76        </activity>
-77        <activity
-77-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:60:9-62:40
-78            android:name="org.tensorflow.codelabs.objectdetection.ui.detection.CameraActivity"
-78-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:61:13-56
-79            android:exported="false" />
-79-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:62:13-37
-80
-81        <provider
-81-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:64:9-72:20
-82            android:name="androidx.core.content.FileProvider"
-82-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:65:13-62
-83            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
-83-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:66:13-87
-84            android:exported="false"
-84-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:67:13-37
-85            android:grantUriPermissions="true" >
-85-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:68:13-47
-86            <meta-data
-86-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:69:13-71:54
-87                android:name="android.support.FILE_PROVIDER_PATHS"
-87-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:70:17-67
-88                android:resource="@xml/file_paths" />
-88-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:71:17-51
-89        </provider>
-90
-91        <uses-library
-91-->[androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:29:9-31:40
-92            android:name="androidx.camera.extensions.impl"
-92-->[androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:30:13-59
-93            android:required="false" />
-93-->[androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:31:13-37
-94
-95        <service
-95-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:24:9-33:19
-96            android:name="androidx.camera.core.impl.MetadataHolderService"
-96-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:25:13-75
-97            android:enabled="false"
-97-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:26:13-36
-98            android:exported="false" >
-98-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:27:13-37
-99            <meta-data
-99-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:30:13-32:89
-100                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-100-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:31:17-103
-101                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-101-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:32:17-86
-102        </service>
-103        <service
-103-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
-104            android:name="androidx.room.MultiInstanceInvalidationService"
-104-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
-105            android:directBootAware="true"
-105-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
-106            android:exported="false" />
-106-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
-107
-108        <provider
-108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-109            android:name="androidx.startup.InitializationProvider"
-109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-110            android:authorities="org.tensorflow.codelabs.objectdetection.androidx-startup"
-110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-111            android:exported="false" >
-111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-112            <meta-data
-112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-114                android:value="androidx.startup" />
-114-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-115            <meta-data
-115-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-116-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-117                android:value="androidx.startup" />
-117-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-118        </provider>
-119    </application>
-120
-121</manifest>
+42        android:theme="@style/AppTheme" >
+42-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:26:9-40
+43        <activity
+43-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:27:9-29:39
+44            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.VideoDetailActivity"
+44-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:28:13-72
+45            android:exported="true" />
+45-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:29:13-36
+46        <activity
+46-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:30:9-32:39
+47            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.detail.ArticleDetailActivity"
+47-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:31:13-74
+48            android:exported="true" />
+48-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:32:13-36
+49        <activity
+49-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:33:9-35:40
+50            android:name="org.tensorflow.codelabs.objectdetection.ui.profile.edit.EditProfileActivity"
+50-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:34:13-64
+51            android:exported="false" />
+51-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:35:13-37
+52        <activity
+52-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:36:9-38:40
+53            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.video.VideoListActivity"
+53-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:37:13-69
+54            android:exported="false" />
+54-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:38:13-37
+55        <activity
+55-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:39:9-41:39
+56            android:name="org.tensorflow.codelabs.objectdetection.ui.recomendation.article.ArticleListActivity"
+56-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:40:13-73
+57            android:exported="true" />
+57-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:41:13-36
+58        <activity
+58-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:42:9-44:40
+59            android:name="org.tensorflow.codelabs.objectdetection.ui.register.RegisterActivity"
+59-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:43:13-57
+60            android:exported="false" />
+60-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:44:13-37
+61        <activity
+61-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:45:9-47:39
+62            android:name="org.tensorflow.codelabs.objectdetection.ui.login.LoginActivity"
+62-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:46:13-51
+63            android:exported="true" />
+63-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:47:13-36
+64        <activity
+64-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:48:9-50:40
+65            android:name="org.tensorflow.codelabs.objectdetection.ui.detection.CameraPreview"
+65-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:49:13-55
+66            android:exported="false" />
+66-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:50:13-37
+67        <activity
+67-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:51:9-59:20
+68            android:name="org.tensorflow.codelabs.objectdetection.MainActivity"
+68-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:52:13-41
+69            android:exported="true" >
+69-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:53:13-36
+70            <intent-filter>
+70-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:54:13-58:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:17-69
+71-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:55:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:17-77
+73-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:57:27-74
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:60:9-62:40
+77            android:name="org.tensorflow.codelabs.objectdetection.ui.detection.CameraActivity"
+77-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:61:13-56
+78            android:exported="false" />
+78-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:62:13-37
+79
+80        <provider
+80-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:64:9-72:20
+81            android:name="androidx.core.content.FileProvider"
+81-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:65:13-62
+82            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+82-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:66:13-87
+83            android:exported="false"
+83-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:67:13-37
+84            android:grantUriPermissions="true" >
+84-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:68:13-47
+85            <meta-data
+85-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:69:13-71:54
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:70:17-67
+87                android:resource="@xml/file_paths" />
+87-->E:\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:71:17-51
+88        </provider>
+89
+90        <uses-library
+90-->[androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:29:9-31:40
+91            android:name="androidx.camera.extensions.impl"
+91-->[androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:30:13-59
+92            android:required="false" />
+92-->[androidx.camera:camera-extensions:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\5e13d4eec1786ec6f0a82c50eedd25a9\transformed\jetified-camera-extensions-1.2.2\AndroidManifest.xml:31:13-37
+93
+94        <service
+94-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:24:9-33:19
+95            android:name="androidx.camera.core.impl.MetadataHolderService"
+95-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:25:13-75
+96            android:enabled="false"
+96-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:26:13-36
+97            android:exported="false" >
+97-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:30:13-32:89
+99                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+99-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:31:17-103
+100                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+100-->[androidx.camera:camera-camera2:1.2.2] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9404b887fd21bb714efc976ebe02c12d\transformed\jetified-camera-camera2-1.2.2\AndroidManifest.xml:32:17-86
+101        </service>
+102        <service
+102-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+103            android:name="androidx.room.MultiInstanceInvalidationService"
+103-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+104            android:directBootAware="true"
+104-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+105            android:exported="false" />
+105-->[androidx.room:room-runtime:2.5.1] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\9d29c97616ff1a4604bc0483923e7c66\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+106
+107        <provider
+107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+108            android:name="androidx.startup.InitializationProvider"
+108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+109            android:authorities="org.tensorflow.codelabs.objectdetection.androidx-startup"
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+110            android:exported="false" >
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+111            <meta-data
+111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+113                android:value="androidx.startup" />
+113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\b52749940e2bd17f8cf8744c3dae6fc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+114            <meta-data
+114-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+115-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+116                android:value="androidx.startup" />
+116-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO YOGA CARBON\.gradle\caches\transforms-3\19a8a5b452abd3f6101f483059dd7f0f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+117        </provider>
+118    </application>
+119
+120</manifest>
