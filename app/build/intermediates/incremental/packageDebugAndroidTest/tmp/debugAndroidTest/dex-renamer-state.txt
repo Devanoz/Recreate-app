@@ -1,0 +1,4 @@
+#Thu Jun 15 19:24:19 ICT 2023
+base.0=E\:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,7 +1,7 @@
 org/tensorflow/codelabs/objectdetection/BuildConfig.java
  org.tensorflow.codelabs.objectdetection.BuildConfig
-org/tensorflow/codelabs/objectdetection/databinding/ActivityArticleListBinding.java
- org.tensorflow.codelabs.objectdetection.databinding.ActivityArticleListBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityCameraResultBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraResultBinding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityArticleDetailBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityArticleDetailBinding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityCameraPreviewBinding.java
@@ -12,8 +12,8 @@ org/tensorflow/codelabs/objectdetection/databinding/ActivityRegisterBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityRegisterBinding
 org/tensorflow/codelabs/objectdetection/databinding/ArticleCardItemBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ArticleCardItemBinding
-org/tensorflow/codelabs/objectdetection/databinding/ActivityVideoListBinding.java
- org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoListBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityArticleListBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityArticleListBinding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityMain2Binding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityMain2Binding
 org/tensorflow/codelabs/objectdetection/databinding/ActivityVideoDetailBinding.java
@@ -28,5 +28,5 @@ org/tensorflow/codelabs/objectdetection/databinding/ActivityLoginBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.ActivityLoginBinding
 org/tensorflow/codelabs/objectdetection/databinding/FragmentHomeBinding.java
  org.tensorflow.codelabs.objectdetection.databinding.FragmentHomeBinding
-org/tensorflow/codelabs/objectdetection/databinding/ActivityCameraResultBinding.java
- org.tensorflow.codelabs.objectdetection.databinding.ActivityCameraResultBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityVideoListBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityVideoListBinding
