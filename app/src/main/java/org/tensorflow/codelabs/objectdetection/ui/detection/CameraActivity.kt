@@ -145,7 +145,7 @@ class CameraActivity : AppCompatActivity(), View.OnClickListener {
                 .build()
         val detector = ObjectDetector.createFromFileAndOptions(
                 this,
-                "detect_meta_2.tflite",
+                "detect_meta_final.tflite",
                 options
         )
 
