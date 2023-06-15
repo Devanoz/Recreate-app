@@ -32,7 +32,11 @@ class LoginViewmodel(private val appRepository: AppRepository, private val appli
                 val response = appRepository.login(identifier,password)
                 if(response.isSuccessful) {
                     if (response.body() != null) {
+                        Log.d("loginResponseBody",response.body().toString())
                         preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.TOKEN, response.body()!!.jwt)
+                        preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.USERNAME,response.body()!!.user.username)
+                        preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.JOINED_AT,response.body()!!.user.createdAt)
+                        preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.EMAIL,response.body()!!.user.email)
                         _linearProgressVisibility.value = false
                         _isLoggedin.value = true
                     }

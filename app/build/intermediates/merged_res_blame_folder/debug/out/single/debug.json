@@ -180,10 +180,6 @@
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\profile.png"
     },
     {
-        "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\font_anybody.ttf.flat",
-        "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\font\\anybody.ttf"
-    },
-    {
         "merged": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video_list.xml.flat",
         "source": "E:\\odml-pathways-main\\object-detection\\codelab2\\android\\final\\app\\src\\main\\res\\layout\\activity_video_list.xml"
     },

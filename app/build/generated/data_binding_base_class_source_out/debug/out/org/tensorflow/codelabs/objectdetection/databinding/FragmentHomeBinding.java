@@ -4,6 +4,7 @@ package org.tensorflow.codelabs.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -23,6 +24,9 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public final CardView articleCardView;
+
+  @NonNull
+  public final ImageView imageView3;
 
   @NonNull
   public final CardView mainCardView;
@@ -58,13 +62,14 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final CardView videoCardView;
 
   private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull CardView articleCardView,
-      @NonNull CardView mainCardView, @NonNull LinearLayout middleSection,
-      @NonNull ShapeableImageView profileImage, @NonNull TextView textView2,
-      @NonNull TextView textView7, @NonNull TextView tvArticle, @NonNull TextView tvNumDetection,
-      @NonNull TextView tvUsername, @NonNull TextView tvVideo, @NonNull TextView tvWelcome,
-      @NonNull CardView videoCardView) {
+      @NonNull ImageView imageView3, @NonNull CardView mainCardView,
+      @NonNull LinearLayout middleSection, @NonNull ShapeableImageView profileImage,
+      @NonNull TextView textView2, @NonNull TextView textView7, @NonNull TextView tvArticle,
+      @NonNull TextView tvNumDetection, @NonNull TextView tvUsername, @NonNull TextView tvVideo,
+      @NonNull TextView tvWelcome, @NonNull CardView videoCardView) {
     this.rootView = rootView;
     this.articleCardView = articleCardView;
+    this.imageView3 = imageView3;
     this.mainCardView = mainCardView;
     this.middleSection = middleSection;
     this.profileImage = profileImage;
@@ -108,6 +113,12 @@ public final class FragmentHomeBinding implements ViewBinding {
       id = R.id.article_cardView;
       CardView articleCardView = rootView.findViewById(id);
       if (articleCardView == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = rootView.findViewById(id);
+      if (imageView3 == null) {
         break missingId;
       }
 
@@ -177,9 +188,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ScrollView) rootView, articleCardView, mainCardView,
-          middleSection, profileImage, textView2, textView7, tvArticle, tvNumDetection, tvUsername,
-          tvVideo, tvWelcome, videoCardView);
+      return new FragmentHomeBinding((ScrollView) rootView, articleCardView, imageView3,
+          mainCardView, middleSection, profileImage, textView2, textView7, tvArticle,
+          tvNumDetection, tvUsername, tvVideo, tvWelcome, videoCardView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

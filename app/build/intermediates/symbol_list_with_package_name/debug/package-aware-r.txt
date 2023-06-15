@@ -2534,7 +2534,6 @@ drawable tooltip_frame_light
 drawable video_illustration
 drawable visibility_on_24
 drawable x
-font anybody
 font anybody_regular
 id ALT
 id BOTTOM_END
@@ -2610,6 +2609,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id app_bar
 id arc
 id article_cardView
 id asConfigured
@@ -2757,6 +2757,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
 id image_capture_button
 id imv_thumbnail
 id info
