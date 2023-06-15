@@ -10,6 +10,8 @@ public final class CameraActivity extends androidx.appcompat.app.AppCompatActivi
     public static final java.lang.String TAG = "TFLite - ODT";
     public static final int REQUEST_IMAGE_CAPTURE = 1;
     private static final float MAX_FONT_SIZE = 96.0F;
+    @org.jetbrains.annotations.NotNull()
+    public static final java.lang.String LABELS = "labels";
     private android.widget.Button captureImageFab;
     private android.widget.ImageView inputImageView;
     private android.widget.ImageView imgSampleOne;
@@ -110,7 +112,7 @@ public final class CameraActivity extends androidx.appcompat.app.AppCompatActivi
         return null;
     }
     
-    @kotlin.Metadata(mv = {1, 6, 0}, k = 1, d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u0007\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000e\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\bX\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\t"}, d2 = {"Lorg/tensorflow/codelabs/objectdetection/ui/detection/CameraActivity$Companion;", "", "()V", "MAX_FONT_SIZE", "", "REQUEST_IMAGE_CAPTURE", "", "TAG", "", "app_debug"})
+    @kotlin.Metadata(mv = {1, 6, 0}, k = 1, d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0007\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\bX\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\n"}, d2 = {"Lorg/tensorflow/codelabs/objectdetection/ui/detection/CameraActivity$Companion;", "", "()V", "LABELS", "", "MAX_FONT_SIZE", "", "REQUEST_IMAGE_CAPTURE", "", "TAG", "app_debug"})
     public static final class Companion {
         
         private Companion() {

@@ -29,8 +29,11 @@ class VideoListActivity : AppCompatActivity() {
             binding.progressBar.visibility = if(isShowing) View.VISIBLE else View.INVISIBLE
         }
 
-        intent.getStringArrayListExtra(CameraActivity.LABELS)?.let { listofLabels ->
-            viewModel.getAllVideoByLabels(listofLabels)
+        val labels = intent.getStringArrayExtra(CameraActivity.LABELS)
+        if(labels != null) {
+            viewModel.getAllVideoByLabels(labels.toList())
+        }else {
+            viewModel.getAllVideoByLabels()
         }
     }
 }

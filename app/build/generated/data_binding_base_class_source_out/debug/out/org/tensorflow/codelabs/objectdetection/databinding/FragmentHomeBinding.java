@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -30,15 +31,23 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ShapeableImageView shapeableImageView;
 
   @NonNull
+  public final TextView tvArticle;
+
+  @NonNull
+  public final TextView tvVideo;
+
+  @NonNull
   public final CardView videoCardView;
 
   private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull CardView articleCardView,
       @NonNull LinearLayout middleSection, @NonNull ShapeableImageView shapeableImageView,
-      @NonNull CardView videoCardView) {
+      @NonNull TextView tvArticle, @NonNull TextView tvVideo, @NonNull CardView videoCardView) {
     this.rootView = rootView;
     this.articleCardView = articleCardView;
     this.middleSection = middleSection;
     this.shapeableImageView = shapeableImageView;
+    this.tvArticle = tvArticle;
+    this.tvVideo = tvVideo;
     this.videoCardView = videoCardView;
   }
 
@@ -87,6 +96,18 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_article;
+      TextView tvArticle = rootView.findViewById(id);
+      if (tvArticle == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_video;
+      TextView tvVideo = rootView.findViewById(id);
+      if (tvVideo == null) {
+        break missingId;
+      }
+
       id = R.id.video_cardView;
       CardView videoCardView = rootView.findViewById(id);
       if (videoCardView == null) {
@@ -94,7 +115,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ScrollView) rootView, articleCardView, middleSection,
-          shapeableImageView, videoCardView);
+          shapeableImageView, tvArticle, tvVideo, videoCardView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

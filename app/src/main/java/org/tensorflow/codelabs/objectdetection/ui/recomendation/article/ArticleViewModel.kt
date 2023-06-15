@@ -43,7 +43,7 @@ class ArticleViewModel(private val recomendationRepository: RecomendationReposit
 //        }
 //    }
 
-    fun getAllArticleByLabels(labels: List<String>) {
+    fun getAllArticleByLabels(labels: List<String> = listOf("")) {
         _isProgressbarShowing.value = true
         viewModelScope.launch {
             try {

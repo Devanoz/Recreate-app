@@ -34,8 +34,12 @@ class ArticleListActivity : AppCompatActivity() {
             binding.progressBar.visibility = if(isShowing) View.VISIBLE else View.INVISIBLE
         }
 
-        intent.getStringArrayListExtra(CameraActivity.LABELS)?.let { listofLabels ->
-            viewModel.getAllArticleByLabels(listofLabels)
+        val labels = intent.getStringArrayExtra(CameraActivity.LABELS)
+
+        if(labels != null) {
+            viewModel.getAllArticleByLabels(labels.toList())
+        }else {
+            viewModel.getAllArticleByLabels()
         }
     }
 }

@@ -42,7 +42,7 @@ class VideoViewModel(private val recomendationRepository: RecomendationRepositor
 //        }
 //    }
 
-    fun getAllVideoByLabels(labels: List<String>) {
+    fun getAllVideoByLabels(labels: List<String> = listOf("")) {
         _isProgressbarShowing.value = true
         viewModelScope.launch {
             try {
