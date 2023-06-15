@@ -18,7 +18,7 @@ class ProfileRepository(private val context: Context) {
 
     suspend fun logout() {
         withContext(Dispatchers.IO) {
-            PreferencesDataStoreHelper(context).removePreference(PreferencesDataStoreConstans.TOKEN)
+            PreferencesDataStoreHelper(context).clearAllPreference()
         }
     }
 }
