@@ -49,7 +49,6 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         usernameTextView = binding.usernameTextview
         emailTextView = binding.emailTextview
         joinedAtTextView = binding.createdAtTextview
@@ -57,25 +56,6 @@ class ProfileFragment : Fragment() {
         usernameTextViewSection = binding.tvUsername
         emailTextViewSection = binding.tvEmail
         joinedAtTextViewSection = binding.tvCreatedAt
-
-//        viewModel.profileData.observe(viewLifecycleOwner) {
-//            Log.d("myLog",it.createdAt)
-//            usernameTextView.text = it.username
-//            emailTextView.text = it.email
-//            joinedAtTextView.text  = DateUtils.formatDate(it.createdAt)
-//
-//            usernameTextViewSection.text = it.username
-//            emailTextViewSection.text = it.email
-//            joinedAtTextViewSection.text = DateUtils.formatDate(it.createdAt)
-//
-//            if(it.avatar!=null) {
-//                Glide.with(this).load(it.avatar).into(binding.profileImageView)
-//            }else {
-//                binding.profileImageView.setImageDrawable(ContextCompat.getDrawable(view.context, R.drawable.default_profile))
-//            }
-//        }
-
-
 
         binding.editIcon.setOnClickListener {
             startActivity(Intent(requireActivity().applicationContext,EditProfileActivity::class.java))
@@ -89,17 +69,14 @@ class ProfileFragment : Fragment() {
     }
 
 
-
     private fun setProfileData() {
         val preferencesDataStoreHelper = PreferencesDataStoreHelper(requireActivity().applicationContext)
 
         lifecycleScope.launch {
-
             preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.EMAIL,"").collect {email ->
                 emailTextView.text = email
                 emailTextViewSection.text = email
             }
-
         }
         lifecycleScope.launch {
             preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.USERNAME,"").collect {username ->
@@ -109,19 +86,17 @@ class ProfileFragment : Fragment() {
         }
         lifecycleScope.launch {
             preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.JOINED_AT,"").collect {
-                joinedAtTextView.text = DateUtils.formatDate(it)
-                joinedAtTextViewSection.text = DateUtils.formatDate(it)
+                if(it.isNotEmpty()) {
+                    joinedAtTextView.text = DateUtils.formatDate(it)
+                    joinedAtTextViewSection.text = DateUtils.formatDate(it)
+                }
             }
         }
+
         lifecycleScope.launch {
             preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.PROFILE_URL,"").collect {
                 if(it.isNotEmpty()) {
                     Glide.with(this@ProfileFragment).load(it).into(binding.profileImageView)
-                }else {
-                    binding.profileImageView.setImageDrawable(view?.let { it1 ->
-                        ContextCompat.getDrawable(
-                            it1.context, R.drawable.default_profile)
-                    })
                 }
             }
         }

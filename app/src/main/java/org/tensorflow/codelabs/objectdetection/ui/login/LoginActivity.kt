@@ -1,14 +1,10 @@
 package org.tensorflow.codelabs.objectdetection.ui.login
 
 import android.content.Intent
-import android.opengl.Visibility
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.View
 import androidx.activity.viewModels
-import androidx.core.widget.doOnTextChanged
+import androidx.appcompat.app.AppCompatActivity
 import org.tensorflow.codelabs.objectdetection.MainActivity
 import org.tensorflow.codelabs.objectdetection.databinding.ActivityLoginBinding
 import org.tensorflow.codelabs.objectdetection.ui.register.RegisterActivity

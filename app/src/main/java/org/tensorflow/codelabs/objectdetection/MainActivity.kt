@@ -8,6 +8,7 @@ import android.os.Environment
 import android.provider.ContactsContract.Profile
 import android.provider.MediaStore
 import android.util.Log
+import androidx.activity.viewModels
 import androidx.core.content.FileProvider
 import androidx.core.splashscreen.SplashScreen
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -33,13 +34,15 @@ import java.util.Date
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding
 
+    private val mainViewModel by viewModels<MainViewModel> { MainViewModelFactory(application) }
+
     private lateinit var currentPhotoPath: String
     override fun onCreate(savedInstanceState: Bundle?) {
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        mainViewModel.getProfileData()
         val preferencesDataStoreHelper = PreferencesDataStoreHelper(application)
         lifecycleScope.launch {
             preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.TOKEN, "")

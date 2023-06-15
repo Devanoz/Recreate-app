@@ -38,14 +38,6 @@
         app:maxImageSize="40dp"
         app:shapeAppearanceOverlay="@style/fab_rounded" />
 
-<!--    <androidx.fragment.app.FragmentContainerView-->
-<!--        android:id="@+id/home_fragment_container"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:layout_anchorGravity="top"-->
-<!--        android:name="org.tensorflow.codelabs.objectdetection.ui.home.HomeFragment"-->
-<!--        tools:layout="@layout/fragment_home" />-->
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_pager"
         android:layout_width="match_parent"

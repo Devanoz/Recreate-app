@@ -9,7 +9,9 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.tensorflow.codelabs.objectdetection.R
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreHelper
@@ -57,18 +59,13 @@ class HomeFragment : Fragment() {
             }
         }
         lifecycleScope.launch {
-            lifecycleScope.launch {
                 preferencesDataStoreHelper.getPreference(PreferencesDataStoreConstans.PROFILE_URL,"").collect {
-                    if(it.isNotEmpty()) {
-                        Glide.with(this@HomeFragment).load(it).into(imvProfile)
-                    }else {
-                        imvProfile.setImageDrawable(view.let { it1 ->
-                            ContextCompat.getDrawable(
-                                it1.context, R.drawable.default_profile)
-                        })
+                    withContext(Dispatchers.Main) {
+                        if(it.isNotEmpty()) {
+                            Glide.with(requireContext()).load(it).into(imvProfile)
+                        }
                     }
                 }
-            }
         }
     }
 }
