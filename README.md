@@ -2,7 +2,7 @@
 # Recreate App
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Devanoz/Recreate-app/blob/master/Recreate%20Banner.png">
 </p>
 
 In Indonesia no less than 30.000 species of plants. But of the many species, most people do not know the benefits, especially for herbal plants. So this project proposed to help people recognize the herbal plants instantly, give information to people that don’t know about herbal plants, also give recommendations about how herbal plants grow and a tutorial to use it. These facilities provided with some facilities that were constructed by collecting the database from suitable dataset, tied the dataset by multi-classification image using tensorflow as a machine learning program, and conducted all of them by android program that might be developed to be more friendly application to use by people. 
