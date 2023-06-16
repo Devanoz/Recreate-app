@@ -39,7 +39,6 @@ class EditProfileActivity : AppCompatActivity() {
 
     private var profileUri: Uri? = null
 
-    private val isFormDataValid = MutableLiveData(false)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,9 +51,7 @@ class EditProfileActivity : AppCompatActivity() {
 
         profileImage = binding.profileImage
 
-        isFormDataValid.observe(this) {
-            updateProfileButton.isEnabled = it
-        }
+
         val preferencesDataStoreHelper = PreferencesDataStoreHelper(application)
 
         lifecycleScope.launch {
@@ -73,9 +70,12 @@ class EditProfileActivity : AppCompatActivity() {
             launchIntentGallery.launch("image/*")
         }
         binding.btUpdateProfile.setOnClickListener {
-            if(profileUri != null && isFormValid()) {
+            if(profileUri != null) {
                 Log.d("profileUri",profileUri.toString())
                 viewModel.uploadProfilePhoto(profileUri!!)
+            }
+            if(isFormValid()) {
+                viewModel.uploadProfileData(etUsername.text.toString(),etEmail.text.toString())
             }
         }
 

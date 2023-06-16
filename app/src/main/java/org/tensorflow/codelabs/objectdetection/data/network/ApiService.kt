@@ -18,6 +18,8 @@ import retrofit2.http.Query
 import retrofit2.http.QueryMap
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
+import org.tensorflow.codelabs.objectdetection.data.network.model.ProfileModel
+import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.EditProfileResponse
 import retrofit2.http.PartMap
 
 interface ApiService {
@@ -54,4 +56,8 @@ interface ApiService {
         @Part photo: MultipartBody.Part,
         @PartMap text: Map<String,RequestBody>
     ): Response<UploadProfileResponse>
+
+    @POST("api/user/me")
+    suspend fun uploadProfileData(@Body profileModel: ProfileModel) : Response<EditProfileResponse>
+
 }

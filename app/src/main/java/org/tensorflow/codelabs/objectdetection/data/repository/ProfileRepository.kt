@@ -16,6 +16,8 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreConstans
 import org.tensorflow.codelabs.objectdetection.data.local.PreferencesDataStoreHelper
 import org.tensorflow.codelabs.objectdetection.data.network.ApiConfig
+import org.tensorflow.codelabs.objectdetection.data.network.model.ProfileModel
+import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.EditProfileResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.UploadProfileResponse
 import retrofit2.Response
 import java.io.File
@@ -78,6 +80,10 @@ class ProfileRepository(private val context: Context) {
     private fun createCustomTempFile(application: Application): File {
         val storageDir: File? = application.getExternalFilesDir(Environment.DIRECTORY_PICTURES)
         return File.createTempFile(timeStamp, ".jpg", storageDir)
+    }
+
+    suspend fun uploadProfileWithoutImage(username: String, email: String): Response<EditProfileResponse> {
+        return client.uploadProfileData(ProfileModel(username,email))
     }
 
     companion object {
