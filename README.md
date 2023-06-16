@@ -20,7 +20,7 @@ Although we only have a few feature, but we have already planned to add some fea
 
 ## Related Project: 
 - https://github.com/gabriel-tama/ReCreate_ML (ML)
-- https://github.com/gabriel-tama/ReCreate_ML
+- https://github.com/gabriel-tama/ReCreate_ML (CC)
 
 ## Capstone Project Team: 
 | Name | Bangkit-ID | 
