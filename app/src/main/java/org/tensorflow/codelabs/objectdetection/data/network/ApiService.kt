@@ -5,14 +5,20 @@ import org.tensorflow.codelabs.objectdetection.data.network.model.RegisterModel
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.article.ArticleResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.login.LoginResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.ProfileResponse
+import org.tensorflow.codelabs.objectdetection.data.network.pojo.profile.UploadProfileResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.register.RegisterResponse
 import org.tensorflow.codelabs.objectdetection.data.network.pojo.video.VideoResponse
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET
+import retrofit2.http.Multipart
 import retrofit2.http.POST
+import retrofit2.http.Part
 import retrofit2.http.Query
 import retrofit2.http.QueryMap
+import okhttp3.MultipartBody
+import okhttp3.RequestBody
+import retrofit2.http.PartMap
 
 interface ApiService {
 
@@ -40,4 +46,12 @@ interface ApiService {
     suspend fun getAllArticleByLabels(
         @QueryMap queryMap: Map<String,String>
     ): Response<ArticleResponse>
+
+    @JvmSuppressWildcards
+    @Multipart
+    @POST("api/upload")
+    suspend fun uploadUserPhoto(
+        @Part photo: MultipartBody.Part,
+        @PartMap text: Map<String,RequestBody>
+    ): Response<UploadProfileResponse>
 }

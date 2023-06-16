@@ -33,6 +33,7 @@ class LoginViewmodel(private val appRepository: AppRepository, private val appli
                 if(response.isSuccessful) {
                     if (response.body() != null) {
                         Log.d("loginResponseBody",response.body().toString())
+                        preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.USER_ID,response.body()!!.user.id.toString())
                         preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.TOKEN, response.body()!!.jwt)
                         preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.USERNAME,response.body()!!.user.username)
                         preferencesDataStoreHelper.putPreference(PreferencesDataStoreConstans.JOINED_AT,response.body()!!.user.createdAt)

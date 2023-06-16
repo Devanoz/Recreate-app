@@ -2642,6 +2642,8 @@ id blocking
 id botom_navigation_view
 id bottom
 id bounce
+id bt_change_profile_photo
+id bt_update_profile
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2723,6 +2725,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id et_email
+id et_username
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
